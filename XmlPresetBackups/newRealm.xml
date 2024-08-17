@@ -8,7 +8,9 @@
       <ChildProcessors>
         <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
           <ChildProcessors/>
-          <Content/>
+          <Content>
+            <Control type="ScriptSlider" id="Knob1" value="0.2300000041723251"/>
+          </Content>
           <UIData Source="newRealmUIData"/>
         </Processor>
       </ChildProcessors>

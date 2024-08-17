@@ -1,3 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ContentProperties DeviceType="Desktop"/>
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="background" x="0.0" y="0.0" width="940"
+             height="730" bgColour="4294967295" itemColour="4293519849" itemColour2="4292467161"/>
+  <Component type="ScriptSlider" id="Knob1" x="260.0" y="260.0" width="120.0"
+             height="120.0" bgColour="4294967295" itemColour="4293585642"/>
+</ContentProperties>
