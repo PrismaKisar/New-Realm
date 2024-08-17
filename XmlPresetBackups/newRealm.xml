@@ -9,7 +9,10 @@
         <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
           <ChildProcessors/>
           <Content>
-            <Control type="ScriptSlider" id="Knob1" value="0.2300000041723251"/>
+            <Control type="ScriptSlider" id="attackSelector" value="1.0"/>
+            <Control type="ScriptSlider" id="sustainSelector" value="1.0"/>
+            <Control type="ScriptSlider" id="attackGain" value="0.0"/>
+            <Control type="ScriptSlider" id="sustainGain" value="2.140000104904175"/>
           </Content>
           <UIData Source="newRealmUIData"/>
         </Processor>

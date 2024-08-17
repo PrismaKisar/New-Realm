@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ContentProperties DeviceType="Desktop">
-  <Component type="ScriptPanel" id="background" x="0.0" y="0.0" width="940"
-             height="730" bgColour="4294967295" itemColour="4293519849" itemColour2="4292467161"/>
-  <Component type="ScriptSlider" id="Knob1" x="260.0" y="260.0" width="120.0"
-             height="120.0" bgColour="4294967295" itemColour="4293585642"/>
+  <Component type="ScriptPanel" id="background" x="0.0" y="0.0" width="940.0"
+             height="730.0" bgColour="4294967295" itemColour="4293519849"
+             itemColour2="4292467161"/>
+  <Component type="ScriptSlider" id="attackSelector" x="250.0" y="260.0" width="140.0"
+             height="140.0" bgColour="4294967295" itemColour="4293585642"
+             min="1.0" max="5.0" middlePosition="3.0" stepSize="1.0" mode="Discrete"
+             showValuePopup="Above"/>
+  <Component type="ScriptSlider" id="sustainSelector" x="490.0" y="260.0"
+             width="140.0" height="140.0" bgColour="4294967295" itemColour="4293585642"
+             min="1.0" max="5.0" middlePosition="3.0" stepSize="1.0" mode="Discrete"
+             showValuePopup="Above"/>
+  <Component type="ScriptSlider" id="attackGain" x="139.0" y="230.0" width="60.0"
+             height="60.0" bgColour="4294967295" itemColour="4293585642" min="-12.0"
+             max="12.0" middlePosition="0.0" mode="Decibel" showValuePopup="Above"/>
+  <Component type="ScriptSlider" id="sustainGain" x="680.0" y="230.0" width="60.0"
+             height="60.0" bgColour="4294967295" itemColour="4293585642" min="-12.0"
+             max="12.0" middlePosition="0.0" mode="Decibel" showValuePopup="Above"/>
 </ContentProperties>
