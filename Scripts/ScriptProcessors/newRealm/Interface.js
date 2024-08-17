@@ -28,44 +28,24 @@ laf.registerFunction("drawRotarySlider", function(g, obj)
 
 
 // ---------------- DSP ---------------- //
-const var attackSampler = Synth.getSampler("Attack");
-const var sustainSampler = Synth.getSampler("Sustain");
+const var attackSampler = Synth.getSampler("attackSampler");
+const var sustainSampler = Synth.getSampler("sustainSampler");
 const var sampleMaps = Sampler.getSampleMapList();
 
 inline function onAttackSelectorControl(component, value)
 {
-	attackSampler.loadSampleMap(sampleMaps[value - 1]);
+	Console.print(value);
+	//attackSampler.loadSampleMap(sampleMaps[value - 1]);
 };
-Content.getComponent("AttackSelector").setControlCallback(onAttackSelectorControl);
+Content.getComponent("attackSelector").setControlCallback(onAttackSelectorControl);
 
 inline function onSustainSelectorControl(component, value)
 {
-	sustainSampler.loadSampleMap(sampleMaps[value - 1]);
+	Console.print(value);
+	//sustainSampler.loadSampleMap(sampleMaps[value - 1]);
 };
-Content.getComponent("SustainSelector").setControlCallback(onSustainSelectorControl);
+Content.getComponent("sustainSelector").setControlCallback(onSustainSelectorControl);
 
-
-
-function onNoteOn()
-{
-	
-}
- function onNoteOff()
-{
-	
-}
- function onController()
-{
-	
-}
- function onTimer()
-{
-	
-}
- function onControl(number, value)
-{
-	
-}
  function onNoteOn()
 {
 	
