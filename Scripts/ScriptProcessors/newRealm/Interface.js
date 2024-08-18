@@ -34,15 +34,13 @@ const var sampleMaps = Sampler.getSampleMapList();
 
 inline function onAttackSelectorControl(component, value)
 {
-	Console.print(value);
-	//attackSampler.loadSampleMap(sampleMaps[value - 1]);
+	attackSampler.loadSampleMap(sampleMaps[value - 1]);
 };
 Content.getComponent("attackSelector").setControlCallback(onAttackSelectorControl);
 
 inline function onSustainSelectorControl(component, value)
 {
-	Console.print(value);
-	//sustainSampler.loadSampleMap(sampleMaps[value - 1]);
+	sustainSampler.loadSampleMap(sampleMaps[value - 1]);
 };
 Content.getComponent("sustainSelector").setControlCallback(onSustainSelectorControl);
 
