@@ -1,7 +1,7 @@
 // ---------------- GUI ---------------- //
 Content.makeFrontInterface(900, 600);
 
-//include("ZoomHandler.js");
+include("ZoomHandler.js");
 
 const laf = Engine.createGlobalScriptLookAndFeel();
 
