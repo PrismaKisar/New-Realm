@@ -12,10 +12,12 @@
              width="140.0" height="140.0" bgColour="4294967295" itemColour="4293585642"
              min="1.0" max="5.0" middlePosition="3.0" stepSize="1.0" mode="Discrete"
              showValuePopup="Above"/>
-  <Component type="ScriptSlider" id="attackGain" x="139.0" y="230.0" width="60.0"
+  <Component type="ScriptSlider" id="attackGain" x="140.0" y="230.0" width="60.0"
              height="60.0" bgColour="4294967295" itemColour="4293585642" min="-12.0"
-             max="12.0" middlePosition="0.0" mode="Decibel" showValuePopup="Above"/>
+             max="12.0" middlePosition="0.0" mode="Decibel" showValuePopup="Above"
+             processorId="attackGain" parameterId="Gain"/>
   <Component type="ScriptSlider" id="sustainGain" x="680.0" y="230.0" width="60.0"
              height="60.0" bgColour="4294967295" itemColour="4293585642" min="-12.0"
-             max="12.0" middlePosition="0.0" mode="Decibel" showValuePopup="Above"/>
+             max="12.0" middlePosition="0.0" mode="Decibel" showValuePopup="Above"
+             processorId="sustainGain" parameterId="Gain"/>
 </ContentProperties>
