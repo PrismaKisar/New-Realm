@@ -1,28 +1,29 @@
 // ---------------- GUI ---------------- //
 Content.makeFrontInterface(900, 600);
-
 include("ZoomHandler.js");
 
-const laf = Engine.createGlobalScriptLookAndFeel();
+const LAF = Engine.createGlobalScriptLookAndFeel();
+const START = 2.5;
+const HALF = 0.5;
+const POINTER_REDUCING_FACTOR = 0.08;
+const POINTER_DISTANCE_FACTOR = 0.1;
 
-laf.registerFunction("drawRotarySlider", function(g, obj)
+LAF.registerFunction("drawRotarySlider", function(g, obj)
 {
 	var area = obj.area;
-	
-	
+		
 	g.setColour(obj.bgColour);
 	g.fillEllipse(area);
 	
-	var start = 2.5;
-	var end = 2 * start * obj.valueNormalized - start;
+	var end = 2 * START * obj.valueNormalized - START;
 	
-	g.rotate(end, [area[2]*0.5, area[3]*0.5]);
+	g.rotate(end, [area[2]*HALF, area[3]*HALF]);
 	
-	var pointerWidth = Math.max(area[2]*0.08, 6);
-	var pointerHeight = Math.max(area[3]*0.08, 6);
+	var pointerWidth = Math.max(area[2]*POINTER_REDUCING_FACTOR, 6);
+	var pointerHeight = Math.max(area[3]*POINTER_REDUCING_FACTOR, 6);
 
 	g.setColour(obj.itemColour1);
-	g.fillEllipse([area[2]/2 - 4, area[3]*0.1, pointerWidth, pointerHeight]);
+	g.fillEllipse([area[2]/2 - 4, area[3]*POINTER_DISTANCE_FACTOR, pointerWidth, pointerHeight]);
 });
 
 
