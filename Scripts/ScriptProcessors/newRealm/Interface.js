@@ -43,15 +43,6 @@ inline function onSustainSelectorControl(component, value)
 	sustainSampler.loadSampleMap(sampleMaps[value - 1]);
 };
 Content.getComponent("sustainSelector").setControlCallback(onSustainSelectorControl);
-
-const var attackGain = Synth.getEffect("attackGain");
-inline function onattackGainControl(component, value)
-{
-	//Add your custom logic here...
-};
-Content.getComponent("attackGain").setControlCallback(onattackGainControl);
-
-
  function onNoteOn()
 {
 	
