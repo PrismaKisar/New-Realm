@@ -26,7 +26,13 @@ LAF.registerFunction("drawRotarySlider", function(g, obj)
 	g.fillEllipse([area[2]/2 - 4, area[3]*POINTER_DISTANCE_FACTOR, pointerWidth, pointerHeight]);
 });
 
-
+const var background = Content.getComponent("background");
+background.loadImage("{PROJECT_FOLDER}background.jpg", "background");
+background.setPaintRoutine(function(g)
+{
+	var area = [0, 0, 900, 600];
+	g.drawImage("background", area, 0, 0);
+});
 
 // ---------------- DSP ---------------- //
 const var sampleMaps = Sampler.getSampleMapList();

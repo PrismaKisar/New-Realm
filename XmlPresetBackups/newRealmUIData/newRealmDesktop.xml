@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ContentProperties DeviceType="Desktop">
-  <Component type="ScriptPanel" id="background" x="0.0" y="0.0" width="940.0"
-             height="730.0" bgColour="4294967295" itemColour="4293519849"
-             itemColour2="4292467161"/>
-  <Component type="ScriptSlider" id="attackSelector" x="250.0" y="260.0" width="140.0"
-             height="140.0" bgColour="4294967295" itemColour="4293585642"
+  <Component type="ScriptPanel" id="background" x="0.0" y="0.0" width="960"
+             height="750" bgColour="4294967295" itemColour="4294967295" itemColour2="4294967295"
+             textColour="4294967295"/>
+  <Component type="ScriptSlider" id="attackSelector" x="180.0" y="336.0" width="160.0"
+             height="160.0" bgColour="9502720" itemColour="4289638062" min="1.0"
+             max="5.0" middlePosition="3.0" stepSize="1.0" mode="Discrete"
+             showValuePopup="Above" textColour="4291362816"/>
+  <Component type="ScriptSlider" id="sustainSelector" x="550.0" y="336.0"
+             width="160.0" height="160.0" bgColour="6225920" itemColour="4289638062"
              min="1.0" max="5.0" middlePosition="3.0" stepSize="1.0" mode="Discrete"
              showValuePopup="Above"/>
-  <Component type="ScriptSlider" id="sustainSelector" x="490.0" y="260.0"
-             width="140.0" height="140.0" bgColour="4294967295" itemColour="4293585642"
-             min="1.0" max="5.0" middlePosition="3.0" stepSize="1.0" mode="Discrete"
-             showValuePopup="Above"/>
-  <Component type="ScriptSlider" id="attackGain" x="140.0" y="230.0" width="60.0"
-             height="60.0" bgColour="4294967295" itemColour="4293585642" min="-12.0"
+  <Component type="ScriptSlider" id="attackGain" x="100.0" y="240.0" width="60.0"
+             height="60.0" bgColour="7864320" itemColour="4289638062" min="-12.0"
              max="12.0" middlePosition="0.0" mode="Decibel" showValuePopup="Above"
              processorId="attackGain" parameterId="Gain"/>
-  <Component type="ScriptSlider" id="sustainGain" x="680.0" y="230.0" width="60.0"
-             height="60.0" bgColour="4294967295" itemColour="4293585642" min="-12.0"
+  <Component type="ScriptSlider" id="sustainGain" x="740.0" y="240.0" width="60.0"
+             height="60.0" bgColour="16777215" itemColour="4289638062" min="-12.0"
              max="12.0" middlePosition="0.0" mode="Decibel" showValuePopup="Above"
              processorId="sustainGain" parameterId="Gain"/>
   <Component type="ScriptPanel" id="resizablePanel" x="890.0" y="590.0" width="10.0"
