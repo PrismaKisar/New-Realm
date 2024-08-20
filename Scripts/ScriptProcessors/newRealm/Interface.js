@@ -2,37 +2,66 @@
 Content.makeFrontInterface(900, 600);
 include("ZoomHandler.js");
 
-const LAF = Engine.createGlobalScriptLookAndFeel();
-const START = 2.5;
-const HALF = 0.5;
-const POINTER_REDUCING_FACTOR = 0.08;
-const POINTER_DISTANCE_FACTOR = 0.1;
-
-LAF.registerFunction("drawRotarySlider", function(g, obj)
-{
-	var area = obj.area;
-		
-	g.setColour(obj.bgColour);
-	g.fillEllipse(area);
-	
-	var end = 2 * START * obj.valueNormalized - START;
-	
-	g.rotate(end, [area[2]*HALF, area[3]*HALF]);
-	
-	var pointerWidth = Math.max(area[2]*POINTER_REDUCING_FACTOR, 6);
-	var pointerHeight = Math.max(area[3]*POINTER_REDUCING_FACTOR, 6);
-
-	g.setColour(obj.itemColour1);
-	g.fillEllipse([area[2]/2 - 4, area[3]*POINTER_DISTANCE_FACTOR, pointerWidth, pointerHeight]);
-});
-
 const var background = Content.getComponent("background");
 background.loadImage("{PROJECT_FOLDER}background.jpg", "background");
 background.setPaintRoutine(function(g)
 {
-	var area = [0, 0, 900, 600];
-	g.drawImage("background", area, 0, 0);
+	var a = [0, 0, 900, 600];
+	g.drawImage("background", a, 0, 0);
 });
+
+
+
+
+
+// ----------- Look and Feel ---------- //
+const bigKnobLaf = Content.createLocalLookAndFeel();
+bigKnobLaf.loadImage("{PROJECT_FOLDER}bigPointer.png", "bigPointer");
+bigKnobLaf.registerFunction("drawRotarySlider", function(g, obj)
+{
+	var area = obj.area;
+	var start = 2.5;
+	var end = 2 * start * obj.valueNormalized - start;
+	g.rotate(end, [area[2]*0.5, area[3]*0.5]);
+	
+	g.drawImage("bigPointer", [72, 10, 15, 15], 0, 0);
+});
+
+const var attackSelector = Content.getComponent("attackSelector");
+attackSelector.setLocalLookAndFeel(bigKnobLaf);
+
+const var sustainSelector = Content.getComponent("sustainSelector");
+sustainSelector.setLocalLookAndFeel(bigKnobLaf);
+
+
+
+const lilKnobLaf = Content.createLocalLookAndFeel();
+lilKnobLaf.loadImage("{PROJECT_FOLDER}lilPointer.png", "lilPointer");
+lilKnobLaf.registerFunction("drawRotarySlider", function(g, obj)
+{
+	var area = obj.area;
+	var start = 2.5;
+	var end = 2 * start * obj.valueNormalized - start;
+	g.rotate(end, [area[2]*0.5, area[3]*0.5]);
+	
+	g.drawImage("lilPointer", [27, 6, 6, 6], 0, 0);
+});
+
+const var attackGain = Content.getComponent("attackGain");
+attackGain.setLocalLookAndFeel(lilKnobLaf);
+
+const var sustainGain = Content.getComponent("sustainGain");
+sustainGain.setLocalLookAndFeel(lilKnobLaf);
+
+
+
+
+
+
+
+
+
+
 
 // ---------------- DSP ---------------- //
 const var sampleMaps = Sampler.getSampleMapList();
