@@ -2,7 +2,9 @@ Content.makeFrontInterface(900, 600);
 
 include("ZoomHandler.js");
 include("LookAndFeel.js");
-include("DSP.js");function onNoteOn()
+include("DSP.js");
+
+function onNoteOn()
 {
 	
 }

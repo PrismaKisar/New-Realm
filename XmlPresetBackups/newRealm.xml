@@ -11,8 +11,8 @@
           <Content>
             <Control type="ScriptSlider" id="attackSelector" value="1.0"/>
             <Control type="ScriptSlider" id="sustainSelector" value="1.0"/>
-            <Control type="ScriptSlider" id="attackGain" value="-11.85000038146973"/>
-            <Control type="ScriptSlider" id="sustainGain" value="2.498001805406602e-16"/>
+            <Control type="ScriptSlider" id="attackGain" value="-2.529999971389771"/>
+            <Control type="ScriptSlider" id="sustainGain" value="6.610000133514404"/>
           </Content>
           <UIData Source="newRealmUIData"/>
         </Processor>
@@ -64,7 +64,7 @@
         </Processor>
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors>
-            <Processor Type="SimpleGain" ID="attackGain" Bypassed="0" Gain="-11.85000038146973"
+            <Processor Type="SimpleGain" ID="attackGain" Bypassed="0" Gain="-2.529999732971191"
                        Delay="0.0" Width="100.0" Balance="0.0" InvertPolarity="0.0">
               <ChildProcessors>
                 <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
@@ -126,8 +126,8 @@
         </Processor>
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors>
-            <Processor Type="SimpleGain" ID="sustainGain" Bypassed="0" Gain="0.0" Delay="0.0"
-                       Width="100.0" Balance="0.0" InvertPolarity="0.0">
+            <Processor Type="SimpleGain" ID="sustainGain" Bypassed="0" Gain="6.610000133514404"
+                       Delay="0.0" Width="100.0" Balance="0.0" InvertPolarity="0.0">
               <ChildProcessors>
                 <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>

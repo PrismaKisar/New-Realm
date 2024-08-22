@@ -48,4 +48,77 @@ attackGain.setLocalLookAndFeel(lilKnobLaf);
 const var sustainGain = Content.getComponent("sustainGain");
 sustainGain.setLocalLookAndFeel(lilKnobLaf);
 
+
+
+inline function onAttackGainControl(component, value)
+{
+	Console.print("Callback chiamata con valore: " + value);
+	attackGainPanel.repaint();
+};
+
+attackGain.setControlCallback(onAttackGainControl);
+const var attackGainPanel = Content.getComponent("attackGainPanel");
+attackGainPanel.setPaintRoutine(function(g) {
+	g.fillAll(Colours.transparentBlack);
+
+
+    var startOffset = 2.5;
+    var arcThickness = 5;
+    var margin = 2.5;
+    var normalizedValue = attackGain.getValueNormalized();
+
+    function getPathArea(p, scale) {
+        var area = p.getBounds(scale);
+        area[0] += margin;
+        area[1] += margin;
+        return area;
+    }
+
+    var endOffset = Math.max(-startOffset + 2.0 * startOffset * normalizedValue, -startOffset + 0.1);
+
+
+    var activeArc = Content.createPath();
+    activeArc.addArc([0, 0, 1, 1], -startOffset, endOffset);
+    g.setColour("0x7040798C");
+    var activeArea = getPathArea(activeArc, 85);
+    g.drawPath(activeArc, activeArea, arcThickness);
+});
+
+
+
+
+
+inline function onSustainGainControl(component, value)
+{
+	Console.print("Callback chiamata con valore: " + value);
+	sustainGainPanel.repaint();
+};
+
+sustainGain.setControlCallback(onSustainGainControl);
+const var sustainGainPanel = Content.getComponent("sustainGainPanel");
+sustainGainPanel.setPaintRoutine(function(g) {
+	g.fillAll(Colours.transparentBlack);
+
+
+    var startOffset = 2.5;
+    var arcThickness = 5;
+    var margin = 2.5;
+    var normalizedValue = sustainGain.getValueNormalized();
+
+    function getPathArea(p, scale) {
+        var area = p.getBounds(scale);
+        area[0] += margin;
+        area[1] += margin;
+        return area;
+    }
+
+    var endOffset = Math.max(-startOffset + 2.0 * startOffset * normalizedValue, -startOffset + 0.1);
+
+
+    var activeArc = Content.createPath();
+    activeArc.addArc([0, 0, 1, 1], -startOffset, endOffset);
+    g.setColour("0x7040798C");
+    var activeArea = getPathArea(activeArc, 85);
+    g.drawPath(activeArc, activeArea, arcThickness);
+});
 }
