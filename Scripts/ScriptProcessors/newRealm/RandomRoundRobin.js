@@ -1,10 +1,10 @@
 const var attackSampler = Synth.getSampler("attackSampler");
 const var sustainSampler = Synth.getSampler("sustainSampler");
-attackSampler.enableRoundRobin(false);function onNoteOn()
+attackSampler.enableRoundRobin(false);
+sustainSampler.enableRoundRobin(false);function onNoteOn()
 {
-	//attackSampler.setActiveGroup(Math.randInt(1, 4));
-	//sustainSampler.setActiveGroup(Math.randInt(1, 4));
-	Console.print(Math.randInt(1, 4));	
+	attackSampler.setActiveGroup(Math.randInt(1, 4));
+	sustainSampler.setActiveGroup(Math.randInt(1, 4));	
 }
  function onNoteOff()
 {

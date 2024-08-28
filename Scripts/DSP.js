@@ -13,7 +13,7 @@ Content.getComponent("attackSelector").setControlCallback(onAttackSelectorContro
 const var sustainSampler = Synth.getSampler("sustainSampler");
 inline function onSustainSelectorControl(component, value)
 {
-	sustainSampler.loadSampleMap(sampleMaps[value - 1]);
+	sustainSampler.loadSampleMap(sampleMaps[value - 1 + 5]);
 };
 Content.getComponent("sustainSelector").setControlCallback(onSustainSelectorControl);
-}
+} 
