@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="guitarNote" RRGroupAmount="1.0" MicPositions=";">
+  <sample Root="52" LoKey="52" HiKey="53" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="/Users/prismakisar/Documents/Universita&#768;/Anno 3/Tirocinio/dummy Hise project/provaChitarra/Samples/prova/untitled_guitar_52.wav"
+          Duplicate="0"/>
+  <sample Root="54" LoKey="54" HiKey="55" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="/Users/prismakisar/Documents/Universita&#768;/Anno 3/Tirocinio/dummy Hise project/provaChitarra/Samples/prova/untitled_guitar_54.wav"
+          Duplicate="0"/>
+  <sample Root="56" LoKey="56" HiKey="57" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="/Users/prismakisar/Documents/Universita&#768;/Anno 3/Tirocinio/dummy Hise project/provaChitarra/Samples/prova/untitled_guitar_56.wav"
+          Duplicate="0"/>
+  <sample Root="58" LoKey="58" HiKey="59" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="/Users/prismakisar/Documents/Universita&#768;/Anno 3/Tirocinio/dummy Hise project/provaChitarra/Samples/prova/untitled_guitar_58.wav"
+          Duplicate="0"/>
+  <sample Root="60" LoKey="60" HiKey="61" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="/Users/prismakisar/Documents/Universita&#768;/Anno 3/Tirocinio/dummy Hise project/provaChitarra/Samples/prova/untitled_guitar_60.wav"
+          Duplicate="0"/>
+  <sample Root="62" LoKey="62" HiKey="63" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="/Users/prismakisar/Documents/Universita&#768;/Anno 3/Tirocinio/dummy Hise project/provaChitarra/Samples/prova/untitled_guitar_62.wav"
+          Duplicate="0"/>
+  <sample Root="64" LoKey="64" HiKey="65" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="/Users/prismakisar/Documents/Universita&#768;/Anno 3/Tirocinio/dummy Hise project/provaChitarra/Samples/prova/untitled_guitar_64.wav"
+          Duplicate="0"/>
+  <sample Root="66" LoKey="66" HiKey="67" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="/Users/prismakisar/Documents/Universita&#768;/Anno 3/Tirocinio/dummy Hise project/provaChitarra/Samples/prova/untitled_guitar_66.wav"
+          Duplicate="0"/>
+</samplemap>
