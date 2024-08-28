@@ -10,9 +10,9 @@
           <ChildProcessors/>
           <Content>
             <Control type="ScriptSlider" id="attackSelector" value="1.0"/>
-            <Control type="ScriptSlider" id="sustainSelector" value="1.0"/>
-            <Control type="ScriptSlider" id="attackGain" value="-2.529999971389771"/>
-            <Control type="ScriptSlider" id="sustainGain" value="6.610000133514404"/>
+            <Control type="ScriptSlider" id="sustainSelector" value="4.0"/>
+            <Control type="ScriptSlider" id="attackGain" value="3.079999923706055"/>
+            <Control type="ScriptSlider" id="sustainGain" value="0.09000000357627869"/>
           </Content>
           <UIData Source="newRealmUIData"/>
         </Processor>
@@ -37,11 +37,11 @@
     <Processor Type="StreamingSampler" ID="attackSampler" Bypassed="0" Gain="0.800000011920929"
                Balance="0.0" VoiceLimit="256.0" KillFadeTime="20.0" IconColour="0"
                PreloadSize="8192.0" BufferSize="4096.0" VoiceAmount="256.0"
-               SamplerRepeatMode="3.0" RRGroupAmount="2.0" PitchTracking="1.0"
+               SamplerRepeatMode="3.0" RRGroupAmount="3.0" PitchTracking="1.0"
                OneShot="0.0" CrossfadeGroups="0.0" Purged="0.0" Reversed="0.0"
                NumChannels="1" UseStaticMatrix="0.0" Group0Table="" Group1Table=""
                Group2Table="" Group3Table="" Group4Table="" Group5Table="" Group6Table=""
-               Group7Table="" SampleMapID="MarimbaKeys">
+               Group7Table="" SampleMapID="vibraphoneAttack">
       <ChildProcessors>
         <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
           <ChildProcessors/>
@@ -64,7 +64,7 @@
         </Processor>
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors>
-            <Processor Type="SimpleGain" ID="attackGain" Bypassed="0" Gain="-2.529999732971191"
+            <Processor Type="SimpleGain" ID="attackGain" Bypassed="0" Gain="3.079999685287476"
                        Delay="0.0" Width="100.0" Balance="0.0" InvertPolarity="0.0">
               <ChildProcessors>
                 <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
@@ -99,11 +99,11 @@
     <Processor Type="StreamingSampler" ID="sustainSampler" Bypassed="0" Gain="1.0"
                Balance="0.0" VoiceLimit="256.0" KillFadeTime="20.0" IconColour="0"
                PreloadSize="8192.0" BufferSize="4096.0" VoiceAmount="256.0"
-               SamplerRepeatMode="3.0" RRGroupAmount="2.0" PitchTracking="1.0"
+               SamplerRepeatMode="3.0" RRGroupAmount="3.0" PitchTracking="1.0"
                OneShot="0.0" CrossfadeGroups="0.0" Purged="0.0" Reversed="0.0"
                NumChannels="1" UseStaticMatrix="0.0" Group0Table="" Group1Table=""
                Group2Table="" Group3Table="" Group4Table="" Group5Table="" Group6Table=""
-               Group7Table="" SampleMapID="MarimbaKeys">
+               Group7Table="" SampleMapID="marimbaSustain">
       <ChildProcessors>
         <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
           <ChildProcessors/>
@@ -126,7 +126,7 @@
         </Processor>
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors>
-            <Processor Type="SimpleGain" ID="sustainGain" Bypassed="0" Gain="6.610000133514404"
+            <Processor Type="SimpleGain" ID="sustainGain" Bypassed="0" Gain="0.0900004655122757"
                        Delay="0.0" Width="100.0" Balance="0.0" InvertPolarity="0.0">
               <ChildProcessors>
                 <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
