@@ -232,7 +232,7 @@
   <sample Root="96" LoKey="96" HiKey="98" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_96_RR2.wav"
           Duplicate="0"/>
-  <sample Root="96" LoKey="96" HiKey="98" LoVel="0" HiVel="41" RRGroup="3"
+  <sample Root="96" LoKey="96" HiKey="99" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_96_RR3.wav"
           Duplicate="0"/>
   <sample Root="99" LoKey="99" HiKey="101" LoVel="0" HiVel="41" RRGroup="1"
@@ -250,7 +250,7 @@
   <sample Root="102" LoKey="102" HiKey="104" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_102_RR2.wav"
           Duplicate="0"/>
-  <sample Root="102" LoKey="102" HiKey="104" LoVel="0" HiVel="41" RRGroup="3"
+  <sample Root="102" LoKey="100" HiKey="104" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_102_RR3.wav"
           Duplicate="0"/>
   <sample Root="105" LoKey="105" HiKey="107" LoVel="0" HiVel="41" RRGroup="1"
@@ -502,7 +502,7 @@
   <sample Root="96" LoKey="96" HiKey="98" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_96_RR2.wav"
           Duplicate="0"/>
-  <sample Root="96" LoKey="96" HiKey="98" LoVel="42" HiVel="84" RRGroup="3"
+  <sample Root="96" LoKey="96" HiKey="99" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_96_RR3.wav"
           Duplicate="0"/>
   <sample Root="99" LoKey="99" HiKey="101" LoVel="42" HiVel="84" RRGroup="1"
@@ -520,7 +520,7 @@
   <sample Root="102" LoKey="102" HiKey="104" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_102_RR2.wav"
           Duplicate="0"/>
-  <sample Root="102" LoKey="102" HiKey="104" LoVel="42" HiVel="84" RRGroup="3"
+  <sample Root="102" LoKey="100" HiKey="104" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_102_RR3.wav"
           Duplicate="0"/>
   <sample Root="105" LoKey="105" HiKey="107" LoVel="42" HiVel="84" RRGroup="1"
@@ -772,7 +772,7 @@
   <sample Root="96" LoKey="96" HiKey="98" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_96_RR2.wav"
           Duplicate="0"/>
-  <sample Root="96" LoKey="96" HiKey="98" LoVel="85" HiVel="127" RRGroup="3"
+  <sample Root="96" LoKey="96" HiKey="99" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_96_RR3.wav"
           Duplicate="0"/>
   <sample Root="99" LoKey="99" HiKey="101" LoVel="85" HiVel="127" RRGroup="1"
@@ -790,7 +790,7 @@
   <sample Root="102" LoKey="102" HiKey="104" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_102_RR2.wav"
           Duplicate="0"/>
-  <sample Root="102" LoKey="102" HiKey="104" LoVel="85" HiVel="127" RRGroup="3"
+  <sample Root="102" LoKey="100" HiKey="104" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_102_RR3.wav"
           Duplicate="0"/>
   <sample Root="105" LoKey="105" HiKey="107" LoVel="85" HiVel="127" RRGroup="1"
