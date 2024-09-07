@@ -1,10 +1,9 @@
 Content.makeFrontInterface(900, 600);
 
-include("ZoomHandler.js");
+include("GUI.js");
 include("Selectors.js");
 include("Gains.js");
-
-
+include("ZoomHandler.js");
 
 
 
