@@ -1,8 +1,8 @@
 Content.makeFrontInterface(900, 600);
 
 include("ZoomHandler.js");
-include("LookAndFeel.js");
-include("DSP.js");
+include("Selectors.js");
+include("Gains.js");
 
 
 
