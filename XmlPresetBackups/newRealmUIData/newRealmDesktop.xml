@@ -4,6 +4,10 @@
   <Component type="ScriptPanel" id="background" x="0.0" y="0.0" width="960.0"
              height="750.0" bgColour="4294967295" itemColour="4294967295"
              itemColour2="4294967295" textColour="4294967295"/>
+  <Component type="ScriptPanel" id="pianoPanel" x="180.0" y="492.0" width="20.0"
+             height="20.0"/>
+  <Component type="ScriptPanel" id="guitarPanel" x="150.0" y="378.0" width="20.0"
+             height="20.0"/>
   <Component type="ScriptPanel" id="attackGainPanel" x="85.0" y="225.0" width="90.0"
              height="90.0" bgColour="1866496396" itemColour="0" itemColour2="0"
              textColour="16777215"/>

@@ -9,10 +9,10 @@
         <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
           <ChildProcessors/>
           <Content>
-            <Control type="ScriptSlider" id="attackSelector" value="5.0"/>
-            <Control type="ScriptSlider" id="sustainSelector" value="3.0"/>
-            <Control type="ScriptSlider" id="attackGain" value="-0.4699999988079071"/>
-            <Control type="ScriptSlider" id="sustainGain" value="-4.159999847412109"/>
+            <Control type="ScriptSlider" id="attackSelector" value="2.0"/>
+            <Control type="ScriptSlider" id="sustainSelector" value="4.0"/>
+            <Control type="ScriptSlider" id="attackGain" value="-6.769999980926514"/>
+            <Control type="ScriptSlider" id="sustainGain" value="6.03000020980835"/>
           </Content>
           <UIData Source="newRealmUIData"/>
         </Processor>
@@ -37,11 +37,11 @@
     <Processor Type="StreamingSampler" ID="attackSampler" Bypassed="0" Gain="0.800000011920929"
                Balance="0.0" VoiceLimit="256.0" KillFadeTime="20.0" IconColour="0"
                PreloadSize="8192.0" BufferSize="4096.0" VoiceAmount="256.0"
-               SamplerRepeatMode="3.0" RRGroupAmount="3.0" PitchTracking="1.0"
+               SamplerRepeatMode="3.0" RRGroupAmount="1.0" PitchTracking="1.0"
                OneShot="0.0" CrossfadeGroups="0.0" Purged="0.0" Reversed="0.0"
                NumChannels="1" UseStaticMatrix="0.0" Group0Table="" Group1Table=""
                Group2Table="" Group3Table="" Group4Table="" Group5Table="" Group6Table=""
-               Group7Table="" SampleMapID="5. glockenspielAttack">
+               Group7Table="" SampleMapID="2. guitarPick">
       <ChildProcessors>
         <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
           <ChildProcessors/>
@@ -69,7 +69,7 @@
         </Processor>
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors>
-            <Processor Type="SimpleGain" ID="attackGain" Bypassed="0" Gain="-0.4699998795986176"
+            <Processor Type="SimpleGain" ID="attackGain" Bypassed="0" Gain="-6.769999980926514"
                        Delay="0.0" Width="100.0" Balance="0.0" InvertPolarity="0.0">
               <ChildProcessors>
                 <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
@@ -108,7 +108,7 @@
                OneShot="0.0" CrossfadeGroups="0.0" Purged="0.0" Reversed="0.0"
                NumChannels="1" UseStaticMatrix="0.0" Group0Table="" Group1Table=""
                Group2Table="" Group3Table="" Group4Table="" Group5Table="" Group6Table=""
-               Group7Table="" SampleMapID="8. vibraphoneSustain">
+               Group7Table="" SampleMapID="9. marimbaSustain">
       <ChildProcessors>
         <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
           <ChildProcessors/>
@@ -136,7 +136,7 @@
         </Processor>
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors>
-            <Processor Type="SimpleGain" ID="sustainGain" Bypassed="0" Gain="-4.159999847412109"
+            <Processor Type="SimpleGain" ID="sustainGain" Bypassed="0" Gain="6.030001163482666"
                        Delay="0.0" Width="100.0" Balance="0.0" InvertPolarity="0.0">
               <ChildProcessors>
                 <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
