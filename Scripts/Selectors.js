@@ -3,60 +3,113 @@ namespace Selectors {
     
     var paintValue = 1;
 
-	const var icons = [];
+	const var attackIcons = [];
+	const var sustainIcons = [];
 	
-
-	const var pianoPanel = Content.getComponent("pianoPanel");
-	pianoPanel.loadImage("{PROJECT_FOLDER}piano.png", "piano");
-	pianoPanel.setPaintRoutine(function(g){
+	/* --- Attack --- */
+	const var attackPianoPanel = Content.getComponent("attackPianoPanel");
+	attackPianoPanel.loadImage("{PROJECT_FOLDER}piano.png", "piano");
+	attackPianoPanel.setPaintRoutine(function(g){
 		if (paintValue == 0.0) {
 			var a = this.getLocalBounds(0);
 			g.drawImage("piano", a, 0, 0);
 		}
 	});
-	icons[0] = pianoPanel;
+	attackIcons[0] = attackPianoPanel;
 	
-	const var guitarPanel = Content.getComponent("guitarPanel");
-	guitarPanel.loadImage("{PROJECT_FOLDER}guitar.png", "guitar");
-	guitarPanel.setPaintRoutine(function(g){
+	const var attackGuitarPanel = Content.getComponent("attackGuitarPanel");
+	attackGuitarPanel.loadImage("{PROJECT_FOLDER}guitar.png", "guitar");
+	attackGuitarPanel.setPaintRoutine(function(g){
 		if (paintValue == 1.0) {
 			var a = this.getLocalBounds(0);
 			g.drawImage("guitar", a, 0, 0);
 		}
 	});
-	icons[1] = guitarPanel;
+	attackIcons[1] = attackGuitarPanel;
 	
-	const var vibraphonePanel = Content.getComponent("vibraphonePanel");
-	vibraphonePanel.loadImage("{PROJECT_FOLDER}vibraphone.png", "vibraphone");
-	vibraphonePanel.setPaintRoutine(function(g){
+	const var attackVibraphonePanel = Content.getComponent("attackVibraphonePanel");
+	attackVibraphonePanel.loadImage("{PROJECT_FOLDER}vibraphone.png", "vibraphone");
+	attackVibraphonePanel.setPaintRoutine(function(g){
 		if (paintValue == 2.0) {
 			var a = this.getLocalBounds(0);
 			g.drawImage("vibraphone", a, 0, 0);
 		}
 	});
-	icons[2] = vibraphonePanel;
+	attackIcons[2] = attackVibraphonePanel;
 	
-	const var marimbaPanel = Content.getComponent("marimbaPanel");
-	marimbaPanel.loadImage("{PROJECT_FOLDER}marimba.png", "marimba");
-	marimbaPanel.setPaintRoutine(function(g){
+	const var attackMarimbaPanel = Content.getComponent("attackMarimbaPanel");
+	attackMarimbaPanel.loadImage("{PROJECT_FOLDER}marimba.png", "marimba");
+	attackMarimbaPanel.setPaintRoutine(function(g){
 		if (paintValue == 3.0) {
 			var a = this.getLocalBounds(0);
 			g.drawImage("marimba", a, 0, 0);
 		}
 	});
-	icons[3] = marimbaPanel;
+	attackIcons[3] = attackMarimbaPanel;
 		
 		
-	const var glockenspielPanel = Content.getComponent("glockenspielPanel");
-	glockenspielPanel.loadImage("{PROJECT_FOLDER}glockenspiel.png", "glockenspiel");
-	glockenspielPanel.setPaintRoutine(function(g){
+	const var attackGlockenspielPanel = Content.getComponent("attackGlockenspielPanel");
+	attackGlockenspielPanel.loadImage("{PROJECT_FOLDER}glockenspiel.png", "glockenspiel");
+	attackGlockenspielPanel.setPaintRoutine(function(g){
 		if (paintValue == 4.0) {
 			var a = this.getLocalBounds(0);
 			g.drawImage("glockenspiel", a, 0, 0);
 		}
 	});
-	icons[4] = glockenspielPanel;
+	attackIcons[4] = attackGlockenspielPanel;
 	
+	/* --- Sustain --- */
+	const var sustainPianoPanel = Content.getComponent("sustainPianoPanel");
+	sustainPianoPanel.loadImage("{PROJECT_FOLDER}piano.png", "piano");
+	sustainPianoPanel.setPaintRoutine(function(g){
+		if (paintValue == 0.0) {
+			var a = this.getLocalBounds(0);
+			g.drawImage("piano", a, 0, 0);
+		}
+	});
+	sustainIcons[0] = sustainPianoPanel;
+	
+	const var sustainGuitarPanel = Content.getComponent("sustainGuitarPanel");
+	sustainGuitarPanel.loadImage("{PROJECT_FOLDER}guitar.png", "guitar");
+	sustainGuitarPanel.setPaintRoutine(function(g){
+		if (paintValue == 1.0) {
+			var a = this.getLocalBounds(0);
+			g.drawImage("guitar", a, 0, 0);
+		}
+	});
+	sustainIcons[1] = sustainGuitarPanel;
+	
+	const var sustainVibraphonePanel = Content.getComponent("sustainVibraphonePanel");
+	sustainVibraphonePanel.loadImage("{PROJECT_FOLDER}vibraphone.png", "vibraphone");
+	sustainVibraphonePanel.setPaintRoutine(function(g){
+		if (paintValue == 2.0) {
+			var a = this.getLocalBounds(0);
+			g.drawImage("vibraphone", a, 0, 0);
+		}
+	});
+	sustainIcons[2] = sustainVibraphonePanel;
+	
+	const var sustainMarimbaPanel = Content.getComponent("sustainMarimbaPanel");
+	sustainMarimbaPanel.loadImage("{PROJECT_FOLDER}marimba.png", "marimba");
+	sustainMarimbaPanel.setPaintRoutine(function(g){
+		if (paintValue == 3.0) {
+			var a = this.getLocalBounds(0);
+			g.drawImage("marimba", a, 0, 0);
+		}
+	});
+	sustainIcons[3] = sustainMarimbaPanel;
+		
+		
+	const var sustainGlockenspielPanel = Content.getComponent("sustainGlockenspielPanel");
+	sustainGlockenspielPanel.loadImage("{PROJECT_FOLDER}glockenspiel.png", "glockenspiel");
+	sustainGlockenspielPanel.setPaintRoutine(function(g){
+		if (paintValue == 4.0) {
+			var a = this.getLocalBounds(0);
+			g.drawImage("glockenspiel", a, 0, 0);
+		}
+	});
+	sustainIcons[4] = sustainGlockenspielPanel;
+
 	
 	
 	
@@ -69,7 +122,7 @@ namespace Selectors {
     inline function onAttackSelectorControl(component, value) {
         loadSampleMapForSampler(attackSampler, value, 0);
         paintValue = value - 1;
-        for (icon in icons)
+        for (icon in attackIcons)
 	        icon.repaintImmediately();
     }
     Content.getComponent("attackSelector").setControlCallback(onAttackSelectorControl);
@@ -77,6 +130,9 @@ namespace Selectors {
     const var sustainSampler = Synth.getSampler("sustainSampler");
     inline function onSustainSelectorControl(component, value) {
         loadSampleMapForSampler(sustainSampler, value, 5);
+        paintValue = value - 1;
+        for (icon in sustainIcons)
+	        icon.repaintImmediately();
     }
     Content.getComponent("sustainSelector").setControlCallback(onSustainSelectorControl);
    
