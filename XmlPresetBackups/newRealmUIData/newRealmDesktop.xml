@@ -22,9 +22,9 @@
   <Component type="ScriptPanel" id="sustainGuitarPanel" x="519.0" y="378.0"
              width="20.0" height="20.0"/>
   <Component type="ScriptPanel" id="sustainVibraphonePanel" x="619.0" y="307.0"
-             width="20" height="20"/>
+             width="20.0" height="20.0"/>
   <Component type="ScriptPanel" id="sustainMarimbaPanel" x="720.0" y="375.0"
-             width="20" height="20"/>
+             width="20.0" height="20.0"/>
   <Component type="ScriptPanel" id="sustainGlockenspielPanel" x="688.0" y="492.0"
              width="20.0" height="20.0"/>
   <Component type="ScriptPanel" id="sustainGainPanel" x="725.0" y="225.0"
