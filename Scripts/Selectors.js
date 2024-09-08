@@ -4,6 +4,7 @@ namespace Selectors {
     var paintValue = 1;
 
 	const var icons = [];
+	
 
 	const var pianoPanel = Content.getComponent("pianoPanel");
 	pianoPanel.loadImage("{PROJECT_FOLDER}piano.png", "piano");
@@ -24,6 +25,39 @@ namespace Selectors {
 		}
 	});
 	icons[1] = guitarPanel;
+	
+	const var vibraphonePanel = Content.getComponent("vibraphonePanel");
+	vibraphonePanel.loadImage("{PROJECT_FOLDER}vibraphone.png", "vibraphone");
+	vibraphonePanel.setPaintRoutine(function(g){
+		if (paintValue == 2.0) {
+			var a = this.getLocalBounds(0);
+			g.drawImage("vibraphone", a, 0, 0);
+		}
+	});
+	icons[2] = vibraphonePanel;
+	
+	const var marimbaPanel = Content.getComponent("marimbaPanel");
+	marimbaPanel.loadImage("{PROJECT_FOLDER}marimba.png", "marimba");
+	marimbaPanel.setPaintRoutine(function(g){
+		if (paintValue == 3.0) {
+			var a = this.getLocalBounds(0);
+			g.drawImage("marimba", a, 0, 0);
+		}
+	});
+	icons[3] = marimbaPanel;
+		
+		
+	const var glockenspielPanel = Content.getComponent("glockenspielPanel");
+	glockenspielPanel.loadImage("{PROJECT_FOLDER}glockenspiel.png", "glockenspiel");
+	glockenspielPanel.setPaintRoutine(function(g){
+		if (paintValue == 4.0) {
+			var a = this.getLocalBounds(0);
+			g.drawImage("glockenspiel", a, 0, 0);
+		}
+	});
+	icons[4] = glockenspielPanel;
+	
+	
 	
 	
 

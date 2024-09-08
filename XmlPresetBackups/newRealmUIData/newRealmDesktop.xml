@@ -4,6 +4,12 @@
   <Component type="ScriptPanel" id="background" x="0.0" y="0.0" width="960.0"
              height="750.0" bgColour="4294967295" itemColour="4294967295"
              itemColour2="4294967295" textColour="4294967295"/>
+  <Component type="ScriptPanel" id="vibraphonePanel" x="250.0" y="307.0" width="20.0"
+             height="20.0"/>
+  <Component type="ScriptPanel" id="marimbaPanel" x="351.0" y="375.0" width="20"
+             height="20"/>
+  <Component type="ScriptPanel" id="glockenspielPanel" x="319.0" y="492.0"
+             width="20.0" height="20.0"/>
   <Component type="ScriptPanel" id="pianoPanel" x="180.0" y="492.0" width="20.0"
              height="20.0"/>
   <Component type="ScriptPanel" id="guitarPanel" x="150.0" y="378.0" width="20.0"
@@ -17,7 +23,7 @@
   <Component type="ScriptSlider" id="attackSelector" x="180.0" y="336.0" width="160.0"
              height="160.0" bgColour="9502720" itemColour="4289638062" min="1.0"
              max="5.0" middlePosition="3.0" stepSize="1.0" mode="Discrete"
-             showValuePopup="Above" textColour="4291362816"/>
+             textColour="4291362816"/>
   <Component type="ScriptSlider" id="sustainSelector" x="550.0" y="336.0"
              width="160.0" height="160.0" bgColour="6225920" itemColour="4289638062"
              min="1.0" max="5.0" middlePosition="3.0" stepSize="1.0" mode="Discrete"
