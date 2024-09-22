@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="6. nothing" RRGroupAmount="3.0" MicPositions=";">
+  <sample Root="0" LoKey="0" HiKey="0" LoVel="0" HiVel="1" RRGroup="1"
+          FileName="{PROJECT_FOLDER}vibraphone/keys/vibraphone_keys_dyn1_48_RR1.wav"
+          Duplicate="0" Volume="-100"/>
+</samplemap>

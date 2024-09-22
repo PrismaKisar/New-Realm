@@ -4,40 +4,43 @@
   <Component type="ScriptPanel" id="background" x="0.0" y="0.0" width="960.0"
              height="750.0" bgColour="4294967295" itemColour="4294967295"
              itemColour2="4294967295" textColour="4294967295"/>
-  <Component type="ScriptPanel" id="attackPianoPanel" x="180.0" y="492.0"
+  <Component type="ScriptPanel" id="attackPianoPanel" x="179.0" y="488.0"
              width="20.0" height="20.0"/>
-  <Component type="ScriptPanel" id="attackGuitarPanel" x="150.0" y="378.0"
+  <Component type="ScriptPanel" id="attackGuitarPanel" x="140.0" y="400.0"
              width="20.0" height="20.0"/>
-  <Component type="ScriptPanel" id="attackVibraphonePanel" x="250.0" y="307.0"
+  <Component type="ScriptPanel" id="attackVibraphonePanel" x="192.0" y="315.0"
              width="20.0" height="20.0"/>
-  <Component type="ScriptPanel" id="attackMarimbaPanel" x="351.0" y="375.0"
+  <Component type="ScriptPanel" id="attackMarimbaPanel" x="304.0" y="314.0"
              width="20.0" height="20.0"/>
-  <Component type="ScriptPanel" id="attackGlockenspielPanel" x="319.0" y="492.0"
+  <Component type="ScriptPanel" id="attackGlockenspielPanel" x="356.0" y="398.0"
              width="20.0" height="20.0"/>
   <Component type="ScriptPanel" id="attackGainPanel" x="85.0" y="225.0" width="90.0"
              height="90.0" bgColour="1866496396" itemColour="0" itemColour2="0"
              textColour="16777215"/>
-  <Component type="ScriptPanel" id="sustainPianoPanel" x="549.0" y="492.0"
+  <Component type="ScriptPanel" id="attackNothingPanel" x="320.0" y="490.0"
              width="20.0" height="20.0"/>
-  <Component type="ScriptPanel" id="sustainGuitarPanel" x="519.0" y="378.0"
+  <Component type="ScriptPanel" id="sustainPianoPanel" x="548.0" y="487.0"
              width="20.0" height="20.0"/>
-  <Component type="ScriptPanel" id="sustainVibraphonePanel" x="619.0" y="307.0"
+  <Component type="ScriptPanel" id="sustainGuitarPanel" x="509.0" y="399.0"
              width="20.0" height="20.0"/>
-  <Component type="ScriptPanel" id="sustainMarimbaPanel" x="720.0" y="375.0"
+  <Component type="ScriptPanel" id="sustainVibraphonePanel" x="561.0" y="314.0"
              width="20.0" height="20.0"/>
-  <Component type="ScriptPanel" id="sustainGlockenspielPanel" x="688.0" y="492.0"
+  <Component type="ScriptPanel" id="sustainMarimbaPanel" x="673.0" y="313.0"
+             width="20.0" height="20.0"/>
+  <Component type="ScriptPanel" id="sustainGlockenspielPanel" x="725.0" y="396.0"
              width="20.0" height="20.0"/>
   <Component type="ScriptPanel" id="sustainGainPanel" x="725.0" y="225.0"
              width="90.0" height="90.0" itemColour="0" itemColour2="0" textColour="16777215"
              bgColour="16777215"/>
+  <Component type="ScriptPanel" id="sustainNothingPanel" x="689.0" y="488.0"
+             width="20" height="20"/>
   <Component type="ScriptSlider" id="attackSelector" x="180.0" y="336.0" width="160.0"
              height="160.0" bgColour="9502720" itemColour="4289638062" min="1.0"
-             max="5.0" middlePosition="3.0" stepSize="1.0" mode="Discrete"
+             max="6.0" middlePosition="3.5" stepSize="1.0" mode="Discrete"
              textColour="4291362816"/>
   <Component type="ScriptSlider" id="sustainSelector" x="550.0" y="336.0"
              width="160.0" height="160.0" bgColour="6225920" itemColour="4289638062"
-             min="1.0" max="5.0" middlePosition="3.0" stepSize="1.0" mode="Discrete"
-             showValuePopup="Above"/>
+             min="1.0" max="6.0" middlePosition="3.5" stepSize="1.0" mode="Discrete"/>
   <Component type="ScriptSlider" id="attackGain" x="100.0" y="240.0" width="60.0"
              height="60.0" bgColour="7864320" itemColour="4289638062" min="-12.0"
              max="12.0" middlePosition="0.0" mode="Decibel"/>

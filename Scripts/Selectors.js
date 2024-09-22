@@ -30,12 +30,12 @@ namespace Selectors {
     }
     
     setupIcons(attackIcons, 
-               ["attackPianoPanel", "attackGuitarPanel", "attackVibraphonePanel", "attackMarimbaPanel", "attackGlockenspielPanel"], 
-               ["piano", "guitar", "vibraphone", "marimba", "glockenspiel"]);
+               ["attackPianoPanel", "attackGuitarPanel", "attackVibraphonePanel", "attackMarimbaPanel", "attackGlockenspielPanel", "attackNothingPanel"], 
+               ["piano", "guitar", "vibraphone", "marimba", "glockenspiel", "nothing"]);
                
     setupIcons(sustainIcons, 
-               ["sustainPianoPanel", "sustainGuitarPanel", "sustainVibraphonePanel", "sustainMarimbaPanel", "sustainGlockenspielPanel"], 
-               ["piano", "guitar", "vibraphone", "marimba", "glockenspiel"]);
+               ["sustainPianoPanel", "sustainGuitarPanel", "sustainVibraphonePanel", "sustainMarimbaPanel", "sustainGlockenspielPanel", "sustainNothingPanel"], 
+               ["piano", "guitar", "vibraphone", "marimba", "glockenspiel", "nothing"]);
 
     function loadSampleMapForSampler(sampler, value, offset) {
         sampler.loadSampleMap(sampleMaps[value - 1 + offset]);
@@ -53,7 +53,7 @@ namespace Selectors {
     Content.getComponent("attackSelector").setControlCallback(onAttackSelectorControl);
 
     inline function onSustainSelectorControl(component, value) {
-        loadSampleMapForSampler(sustainSampler, value, 5);
+        loadSampleMapForSampler(sustainSampler, value, 6);
         paintValue = value - 1;
         for (icon in sustainIcons)
             icon.repaintImmediately();
