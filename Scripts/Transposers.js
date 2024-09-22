@@ -50,6 +50,9 @@ namespace Transposers {
         g.setColour("0x7040798C");
         var activeArea = getPathArea(activeArc, 85);
         g.drawPath(activeArc, activeArea, arcThickness);
+        
+        var attackTransposerLabel = Content.getComponent("attackTransposerLabel");
+        attackTransposerLabel.set("text", attackTransposer.getValue());
     });
 
 
@@ -72,7 +75,6 @@ namespace Transposers {
         var arcThickness = 5;
         var margin = 2.5;
         
-
         function getPathArea(p, scale) {
             var area = p.getBounds(scale);
             area[0] += margin;
@@ -85,6 +87,9 @@ namespace Transposers {
         g.setColour("0x7040798C");
         var activeArea = getPathArea(activeArc, 85);
         g.drawPath(activeArc, activeArea, arcThickness);
+        
+        var sustainTransposerLabel = Content.getComponent("sustainTransposerLabel");
+        sustainTransposerLabel.set("text", sustainTransposer.getValue());
     });
 
 }

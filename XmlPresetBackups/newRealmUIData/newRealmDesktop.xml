@@ -3,7 +3,7 @@
 <ContentProperties DeviceType="Desktop">
   <Component type="ScriptPanel" id="background" x="0.0" y="0.0" width="960.0"
              height="750.0" bgColour="4294967295" itemColour="4294967295"
-             itemColour2="4294967295" textColour="4294967295"/>
+             itemColour2="4294967295" textColour="4282415500"/>
   <Component type="ScriptPanel" id="attackPianoPanel" x="204.0" y="498.0"
              width="20.0" height="20.0"/>
   <Component type="ScriptPanel" id="attackGuitarPanel" x="165.0" y="410.0"
@@ -21,6 +21,8 @@
              width="20.0" height="20.0"/>
   <Component type="ScriptPanel" id="attackTransposerPanel" x="68.0" y="328.0"
              width="90.0" height="90.0"/>
+  <Component type="ScriptLabel" id="attackTransposerLabel" x="93.0" y="405.0"
+             width="40.0" height="30.0" textColour="2101377420" text="0.0"/>
   <Component type="ScriptPanel" id="sustainPianoPanel" x="532.0" y="496.0"
              width="20" height="20"/>
   <Component type="ScriptPanel" id="sustainGuitarPanel" x="493.0" y="409.0"
@@ -38,6 +40,8 @@
              width="20.0" height="20.0"/>
   <Component type="ScriptPanel" id="sustainTransposerPanel" x="750.0" y="328.0"
              width="90.0" height="90.0"/>
+  <Component type="ScriptLabel" id="sustainTransposerLabel" x="776.0" y="405.0"
+             textColour="2101377420" width="40.0" height="30.0" text="0.0"/>
   <Component type="ScriptSlider" id="attackSelector" x="205.0" y="347.0" width="160.0"
              height="160.0" bgColour="9502720" itemColour="4289638062" min="1.0"
              max="6.0" middlePosition="3.5" stepSize="1.0" mode="Discrete"

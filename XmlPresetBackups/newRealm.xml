@@ -10,11 +10,11 @@
           <ChildProcessors/>
           <Content>
             <Control type="ScriptSlider" id="attackSelector" value="1.0"/>
-            <Control type="ScriptSlider" id="sustainSelector" value="3.0"/>
-            <Control type="ScriptSlider" id="attackGain" value="1.940000057220459"/>
-            <Control type="ScriptSlider" id="sustainGain" value="0.2300000041723251"/>
-            <Control type="ScriptSlider" id="attackTransposer" value="17.0"/>
-            <Control type="ScriptSlider" id="sustainTransposer" value="-15.0"/>
+            <Control type="ScriptSlider" id="sustainSelector" value="1.0"/>
+            <Control type="ScriptSlider" id="attackGain" value="2.498001805406602e-16"/>
+            <Control type="ScriptSlider" id="sustainGain" value="2.498001805406602e-16"/>
+            <Control type="ScriptSlider" id="attackTransposer" value="0.0"/>
+            <Control type="ScriptSlider" id="sustainTransposer" value="0.0"/>
           </Content>
           <UIData Source="newRealmUIData"/>
         </Processor>
@@ -47,7 +47,7 @@
       <ChildProcessors>
         <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
           <ChildProcessors>
-            <Processor Type="Transposer" ID="attackTransposer" Bypassed="0" TransposeAmount="17.0">
+            <Processor Type="Transposer" ID="attackTransposer" Bypassed="0" TransposeAmount="0.0">
               <ChildProcessors/>
             </Processor>
           </ChildProcessors>
@@ -75,8 +75,8 @@
         </Processor>
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors>
-            <Processor Type="SimpleGain" ID="attackGain" Bypassed="0" Gain="1.940000057220459"
-                       Delay="0.0" Width="100.0" Balance="0.0" InvertPolarity="0.0">
+            <Processor Type="SimpleGain" ID="attackGain" Bypassed="0" Gain="0.0" Delay="0.0"
+                       Width="100.0" Balance="0.0" InvertPolarity="0.0">
               <ChildProcessors>
                 <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
@@ -114,11 +114,11 @@
                OneShot="0.0" CrossfadeGroups="0.0" Purged="0.0" Reversed="0.0"
                NumChannels="1" UseStaticMatrix="0.0" Group0Table="" Group1Table=""
                Group2Table="" Group3Table="" Group4Table="" Group5Table="" Group6Table=""
-               Group7Table="" SampleMapID="09. marimbaSustain">
+               Group7Table="" SampleMapID="07. pianoSustain">
       <ChildProcessors>
         <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
           <ChildProcessors>
-            <Processor Type="Transposer" ID="sustainTransposer" Bypassed="0" TransposeAmount="-15.0">
+            <Processor Type="Transposer" ID="sustainTransposer" Bypassed="0" TransposeAmount="0.0">
               <ChildProcessors/>
             </Processor>
           </ChildProcessors>
@@ -146,8 +146,8 @@
         </Processor>
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors>
-            <Processor Type="SimpleGain" ID="sustainGain" Bypassed="0" Gain="0.2299998551607132"
-                       Delay="0.0" Width="100.0" Balance="0.0" InvertPolarity="0.0">
+            <Processor Type="SimpleGain" ID="sustainGain" Bypassed="0" Gain="0.0" Delay="0.0"
+                       Width="100.0" Balance="0.0" InvertPolarity="0.0">
               <ChildProcessors>
                 <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
