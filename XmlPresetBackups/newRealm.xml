@@ -9,10 +9,10 @@
         <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
           <ChildProcessors/>
           <Content>
-            <Control type="ScriptSlider" id="attackSelector" value="1.0"/>
-            <Control type="ScriptSlider" id="sustainSelector" value="1.0"/>
-            <Control type="ScriptSlider" id="attackGain" value="1.639999985694885"/>
-            <Control type="ScriptSlider" id="sustainGain" value="4.610000133514404"/>
+            <Control type="ScriptSlider" id="attackSelector" value="5.0"/>
+            <Control type="ScriptSlider" id="sustainSelector" value="5.0"/>
+            <Control type="ScriptSlider" id="attackGain" value="-3.069999933242798"/>
+            <Control type="ScriptSlider" id="sustainGain" value="-0.239999994635582"/>
           </Content>
           <UIData Source="newRealmUIData"/>
         </Processor>
@@ -41,7 +41,7 @@
                OneShot="0.0" CrossfadeGroups="0.0" Purged="0.0" Reversed="0.0"
                NumChannels="1" UseStaticMatrix="0.0" Group0Table="" Group1Table=""
                Group2Table="" Group3Table="" Group4Table="" Group5Table="" Group6Table=""
-               Group7Table="" SampleMapID="1. pianoAttack">
+               Group7Table="" SampleMapID="5. glockenspielAttack">
       <ChildProcessors>
         <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
           <ChildProcessors/>
@@ -69,7 +69,7 @@
         </Processor>
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors>
-            <Processor Type="SimpleGain" ID="attackGain" Bypassed="0" Gain="1.640000224113464"
+            <Processor Type="SimpleGain" ID="attackGain" Bypassed="0" Gain="-3.069999694824219"
                        Delay="0.0" Width="100.0" Balance="0.0" InvertPolarity="0.0">
               <ChildProcessors>
                 <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
@@ -108,7 +108,7 @@
                OneShot="0.0" CrossfadeGroups="0.0" Purged="0.0" Reversed="0.0"
                NumChannels="1" UseStaticMatrix="0.0" Group0Table="" Group1Table=""
                Group2Table="" Group3Table="" Group4Table="" Group5Table="" Group6Table=""
-               Group7Table="" SampleMapID="6. pianoSustain">
+               Group7Table="" SampleMapID="a. glockenspielSustain">
       <ChildProcessors>
         <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
           <ChildProcessors/>
@@ -136,7 +136,7 @@
         </Processor>
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors>
-            <Processor Type="SimpleGain" ID="sustainGain" Bypassed="0" Gain="4.610000133514404"
+            <Processor Type="SimpleGain" ID="sustainGain" Bypassed="0" Gain="-0.2400001585483551"
                        Delay="0.0" Width="100.0" Balance="0.0" InvertPolarity="0.0">
               <ChildProcessors>
                 <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">

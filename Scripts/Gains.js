@@ -1,22 +1,4 @@
 namespace Gains {
-    const bigKnobLaf = Content.createLocalLookAndFeel();
-    bigKnobLaf.loadImage("{PROJECT_FOLDER}bigPointer.png", "bigPointer");
-    bigKnobLaf.registerFunction("drawRotarySlider", function (g, obj) {
-        var area = obj.area;
-        var start = 2.5;
-        var end = 2 * start * obj.valueNormalized - start;
-        g.rotate(end, [area[2] * 0.5, area[3] * 0.5]);
-
-        g.drawImage("bigPointer", [72, 10, 15, 15], 0, 0);
-    });
-
-    const var attackSelector = Content.getComponent("attackSelector");
-    attackSelector.setLocalLookAndFeel(bigKnobLaf);
-
-    const var sustainSelector = Content.getComponent("sustainSelector");
-    sustainSelector.setLocalLookAndFeel(bigKnobLaf);
-
-
 
     const lilKnobLaf = Content.createLocalLookAndFeel();
     lilKnobLaf.loadImage("{PROJECT_FOLDER}lilPointer.png", "lilPointer");
@@ -35,8 +17,8 @@ namespace Gains {
     const var sustainGain = Content.getComponent("sustainGain");
     sustainGain.setLocalLookAndFeel(lilKnobLaf);
 
-const var attackGainEffect = Synth.getEffect("attackGain");
-inline function onAttackGainControl(component, value) {
+	const var attackGainEffect = Synth.getEffect("attackGain");
+	inline function onAttackGainControl(component, value) {
 		attackGainEffect.setAttribute(0, value);
         attackGainPanel.repaint();
     };
@@ -46,8 +28,7 @@ inline function onAttackGainControl(component, value) {
     
     attackGainPanel.setPaintRoutine(function (g) {
         g.fillAll(Colours.transparentBlack);
-
-
+        
         var startOffset = 2.5;
         var arcThickness = 5;
         var margin = 2.5;
@@ -71,11 +52,8 @@ inline function onAttackGainControl(component, value) {
     });
 
 
-
-
-
-const var sustainGainEffect = Synth.getEffect("sustainGain");
-inline function onSustainGainControl(component, value) {
+	const var sustainGainEffect = Synth.getEffect("sustainGain");
+	inline function onSustainGainControl(component, value) {
 		sustainGainEffect.setAttribute(0, value);
         sustainGainPanel.repaint();
     };

@@ -20,12 +20,12 @@
   <AppGroupID value=""/>
   <RedirectSampleFolder value=""/>
   <AAXCategoryFX value="AAX_ePlugInCategory_Modulation"/>
-  <VST3Category value=""/>
+  <VST3Category value="Synth"/>
   <SupportMonoFX value="No"/>
-  <EnableMidiInputFX value="No"/>
+  <EnableMidiInputFX value="1"/>
   <EnableMidiOut value="No"/>
   <EnableSoundGeneratorsFX value="No"/>
-  <VST3Support value="No"/>
+  <VST3Support value="1"/>
   <UseRawFrontend value="No"/>
   <ExpansionType value="Disabled"/>
   <EncryptionKey value=""/>
