@@ -24,7 +24,7 @@
   <Component type="ScriptLabel" id="attackTransposerLabel" x="93.0" y="405.0"
              width="40.0" height="30.0" textColour="2101377420" text="0.0"/>
   <Component type="ScriptPanel" id="sustainPianoPanel" x="532.0" y="496.0"
-             width="20" height="20"/>
+             width="20.0" height="20.0"/>
   <Component type="ScriptPanel" id="sustainGuitarPanel" x="493.0" y="409.0"
              width="20.0" height="20.0"/>
   <Component type="ScriptPanel" id="sustainVibraphonePanel" x="545.0" y="324.0"
