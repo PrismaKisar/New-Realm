@@ -3,13 +3,8 @@ Content.makeFrontInterface(900, 600);
 include("GUI.js");
 include("Selectors.js");
 include("Gains.js");
+include("Transposers.js");
 include("ZoomHandler.js");
-
-
-
-
-
-
 
 function onNoteOn()
 {

@@ -4,49 +4,59 @@
   <Component type="ScriptPanel" id="background" x="0.0" y="0.0" width="960.0"
              height="750.0" bgColour="4294967295" itemColour="4294967295"
              itemColour2="4294967295" textColour="4294967295"/>
-  <Component type="ScriptPanel" id="attackPianoPanel" x="179.0" y="488.0"
+  <Component type="ScriptPanel" id="attackPianoPanel" x="204.0" y="498.0"
              width="20.0" height="20.0"/>
-  <Component type="ScriptPanel" id="attackGuitarPanel" x="140.0" y="400.0"
+  <Component type="ScriptPanel" id="attackGuitarPanel" x="165.0" y="410.0"
              width="20.0" height="20.0"/>
-  <Component type="ScriptPanel" id="attackVibraphonePanel" x="192.0" y="315.0"
+  <Component type="ScriptPanel" id="attackVibraphonePanel" x="217.0" y="326.0"
              width="20.0" height="20.0"/>
-  <Component type="ScriptPanel" id="attackMarimbaPanel" x="304.0" y="314.0"
+  <Component type="ScriptPanel" id="attackMarimbaPanel" x="329.0" y="325.0"
              width="20.0" height="20.0"/>
-  <Component type="ScriptPanel" id="attackGlockenspielPanel" x="356.0" y="398.0"
+  <Component type="ScriptPanel" id="attackGlockenspielPanel" x="381.0" y="408.0"
              width="20.0" height="20.0"/>
-  <Component type="ScriptPanel" id="attackGainPanel" x="85.0" y="225.0" width="90.0"
+  <Component type="ScriptPanel" id="attackGainPanel" x="118.0" y="197.0" width="90.0"
              height="90.0" bgColour="1866496396" itemColour="0" itemColour2="0"
              textColour="16777215"/>
-  <Component type="ScriptPanel" id="attackNothingPanel" x="320.0" y="490.0"
+  <Component type="ScriptPanel" id="attackNothingPanel" x="345.0" y="499.0"
              width="20.0" height="20.0"/>
-  <Component type="ScriptPanel" id="sustainPianoPanel" x="548.0" y="487.0"
+  <Component type="ScriptPanel" id="attackTransposerPanel" x="68.0" y="328.0"
+             width="90.0" height="90.0"/>
+  <Component type="ScriptPanel" id="sustainPianoPanel" x="532.0" y="496.0"
+             width="20" height="20"/>
+  <Component type="ScriptPanel" id="sustainGuitarPanel" x="493.0" y="409.0"
              width="20.0" height="20.0"/>
-  <Component type="ScriptPanel" id="sustainGuitarPanel" x="509.0" y="399.0"
+  <Component type="ScriptPanel" id="sustainVibraphonePanel" x="545.0" y="324.0"
              width="20.0" height="20.0"/>
-  <Component type="ScriptPanel" id="sustainVibraphonePanel" x="561.0" y="314.0"
+  <Component type="ScriptPanel" id="sustainMarimbaPanel" x="657.0" y="323.0"
              width="20.0" height="20.0"/>
-  <Component type="ScriptPanel" id="sustainMarimbaPanel" x="673.0" y="313.0"
+  <Component type="ScriptPanel" id="sustainGlockenspielPanel" x="709.0" y="406.0"
              width="20.0" height="20.0"/>
-  <Component type="ScriptPanel" id="sustainGlockenspielPanel" x="725.0" y="396.0"
-             width="20.0" height="20.0"/>
-  <Component type="ScriptPanel" id="sustainGainPanel" x="725.0" y="225.0"
+  <Component type="ScriptPanel" id="sustainGainPanel" x="697.0" y="198.0"
              width="90.0" height="90.0" itemColour="0" itemColour2="0" textColour="16777215"
              bgColour="16777215"/>
-  <Component type="ScriptPanel" id="sustainNothingPanel" x="689.0" y="488.0"
-             width="20" height="20"/>
-  <Component type="ScriptSlider" id="attackSelector" x="180.0" y="336.0" width="160.0"
+  <Component type="ScriptPanel" id="sustainNothingPanel" x="673.0" y="498.0"
+             width="20.0" height="20.0"/>
+  <Component type="ScriptPanel" id="sustainTransposerPanel" x="750.0" y="328.0"
+             width="90.0" height="90.0"/>
+  <Component type="ScriptSlider" id="attackSelector" x="205.0" y="347.0" width="160.0"
              height="160.0" bgColour="9502720" itemColour="4289638062" min="1.0"
              max="6.0" middlePosition="3.5" stepSize="1.0" mode="Discrete"
              textColour="4291362816"/>
-  <Component type="ScriptSlider" id="sustainSelector" x="550.0" y="336.0"
+  <Component type="ScriptSlider" id="sustainSelector" x="534.0" y="345.0"
              width="160.0" height="160.0" bgColour="6225920" itemColour="4289638062"
              min="1.0" max="6.0" middlePosition="3.5" stepSize="1.0" mode="Discrete"/>
-  <Component type="ScriptSlider" id="attackGain" x="100.0" y="240.0" width="60.0"
+  <Component type="ScriptSlider" id="attackGain" x="133.0" y="213.0" width="60.0"
              height="60.0" bgColour="7864320" itemColour="4289638062" min="-12.0"
              max="12.0" middlePosition="0.0" mode="Decibel"/>
-  <Component type="ScriptSlider" id="sustainGain" x="740.0" y="240.0" width="60.0"
+  <Component type="ScriptSlider" id="sustainGain" x="713.0" y="212.0" width="60.0"
              height="60.0" bgColour="16777215" itemColour="4289638062" min="-12.0"
              max="12.0" middlePosition="0.0" mode="Decibel"/>
+  <Component type="ScriptSlider" id="attackTransposer" x="83.0" y="343.0"
+             width="60.0" height="60.0" min="-24.0" max="24.0" middlePosition="0.0"
+             stepSize="1.0" showValuePopup="Above"/>
+  <Component type="ScriptSlider" id="sustainTransposer" x="766.0" y="343.0"
+             width="60.0" height="60.0" min="-24.0" max="24.0" stepSize="1.0"
+             middlePosition="0.0"/>
   <Component type="ScriptPanel" id="resizablePanel" x="890.0" y="590.0" width="10.0"
              height="10.0" allowCallbacks="Clicks, Hover &amp; Dragging" itemColour="822018048"/>
 </ContentProperties>

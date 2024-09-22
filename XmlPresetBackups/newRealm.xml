@@ -9,10 +9,12 @@
         <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
           <ChildProcessors/>
           <Content>
-            <Control type="ScriptSlider" id="attackSelector" value="6.0"/>
+            <Control type="ScriptSlider" id="attackSelector" value="5.0"/>
             <Control type="ScriptSlider" id="sustainSelector" value="5.0"/>
             <Control type="ScriptSlider" id="attackGain" value="6.190000057220459"/>
-            <Control type="ScriptSlider" id="sustainGain" value="-0.239999994635582"/>
+            <Control type="ScriptSlider" id="sustainGain" value="-0.2599999904632568"/>
+            <Control type="ScriptSlider" id="attackTransposer" value="-24.0"/>
+            <Control type="ScriptSlider" id="sustainTransposer" value="-10.0"/>
           </Content>
           <UIData Source="newRealmUIData"/>
         </Processor>
@@ -37,14 +39,18 @@
     <Processor Type="StreamingSampler" ID="attackSampler" Bypassed="0" Gain="0.800000011920929"
                Balance="0.0" VoiceLimit="256.0" KillFadeTime="20.0" IconColour="0"
                PreloadSize="8192.0" BufferSize="4096.0" VoiceAmount="256.0"
-               SamplerRepeatMode="3.0" RRGroupAmount="1.0" PitchTracking="1.0"
+               SamplerRepeatMode="3.0" RRGroupAmount="3.0" PitchTracking="1.0"
                OneShot="0.0" CrossfadeGroups="0.0" Purged="0.0" Reversed="0.0"
                NumChannels="1" UseStaticMatrix="0.0" Group0Table="" Group1Table=""
                Group2Table="" Group3Table="" Group4Table="" Group5Table="" Group6Table=""
-               Group7Table="" SampleMapID="06. nothingAttack">
+               Group7Table="" SampleMapID="05. glockenspielAttack">
       <ChildProcessors>
         <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
-          <ChildProcessors/>
+          <ChildProcessors>
+            <Processor Type="Transposer" ID="attackTransposer" Bypassed="0" TransposeAmount="-24.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
         </Processor>
         <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
           <ChildProcessors>
@@ -108,10 +114,14 @@
                OneShot="0.0" CrossfadeGroups="0.0" Purged="0.0" Reversed="0.0"
                NumChannels="1" UseStaticMatrix="0.0" Group0Table="" Group1Table=""
                Group2Table="" Group3Table="" Group4Table="" Group5Table="" Group6Table=""
-               Group7Table="">
+               Group7Table="" SampleMapID="11. glockenspielSustain">
       <ChildProcessors>
         <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
-          <ChildProcessors/>
+          <ChildProcessors>
+            <Processor Type="Transposer" ID="sustainTransposer" Bypassed="0" TransposeAmount="-10.0">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
         </Processor>
         <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
           <ChildProcessors>
@@ -136,7 +146,7 @@
         </Processor>
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors>
-            <Processor Type="SimpleGain" ID="sustainGain" Bypassed="0" Gain="-0.2400001585483551"
+            <Processor Type="SimpleGain" ID="sustainGain" Bypassed="0" Gain="-0.2600001990795135"
                        Delay="0.0" Width="100.0" Balance="0.0" InvertPolarity="0.0">
               <ChildProcessors>
                 <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
@@ -167,381 +177,6 @@
       <channels>
         <channelData enabled="1" level="0.0" suffix=""/>
       </channels>
-      <samplemap CrossfadeGamma="1.0" ID="glockenspielSustain" RRGroupAmount="3.0"
-                 MicPositions=";">
-        <sample Root="72" LoKey="72" HiKey="74" LoVel="0" HiVel="41" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_72_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="72" LoKey="72" HiKey="74" LoVel="0" HiVel="41" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_72_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="72" LoKey="72" HiKey="74" LoVel="0" HiVel="41" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_72_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="75" LoKey="75" HiKey="77" LoVel="0" HiVel="41" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_75_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="75" LoKey="75" HiKey="77" LoVel="0" HiVel="41" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_75_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="75" LoKey="75" HiKey="77" LoVel="0" HiVel="41" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_75_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="78" LoKey="78" HiKey="80" LoVel="0" HiVel="41" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_78_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="78" LoKey="78" HiKey="80" LoVel="0" HiVel="41" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_78_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="78" LoKey="78" HiKey="80" LoVel="0" HiVel="41" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_78_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="81" LoKey="81" HiKey="83" LoVel="0" HiVel="41" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_81_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="81" LoKey="81" HiKey="83" LoVel="0" HiVel="41" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_81_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="81" LoKey="81" HiKey="83" LoVel="0" HiVel="41" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_81_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="84" LoKey="84" HiKey="86" LoVel="0" HiVel="41" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_84_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="84" LoKey="84" HiKey="86" LoVel="0" HiVel="41" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_84_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="84" LoKey="84" HiKey="86" LoVel="0" HiVel="41" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_84_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="87" LoKey="87" HiKey="89" LoVel="0" HiVel="41" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_87_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="87" LoKey="87" HiKey="89" LoVel="0" HiVel="41" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_87_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="87" LoKey="87" HiKey="89" LoVel="0" HiVel="41" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_87_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="90" LoKey="90" HiKey="92" LoVel="0" HiVel="41" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_90_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="90" LoKey="90" HiKey="92" LoVel="0" HiVel="41" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_90_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="90" LoKey="90" HiKey="92" LoVel="0" HiVel="41" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_90_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="93" LoKey="93" HiKey="95" LoVel="0" HiVel="41" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_93_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="93" LoKey="93" HiKey="95" LoVel="0" HiVel="41" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_93_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="93" LoKey="93" HiKey="95" LoVel="0" HiVel="41" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_93_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="96" LoKey="96" HiKey="98" LoVel="0" HiVel="41" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_96_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="96" LoKey="96" HiKey="98" LoVel="0" HiVel="41" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_96_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="96" LoKey="96" HiKey="98" LoVel="0" HiVel="41" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_96_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="99" LoKey="99" HiKey="101" LoVel="0" HiVel="41" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_99_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="99" LoKey="99" HiKey="101" LoVel="0" HiVel="41" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_99_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="99" LoKey="99" HiKey="101" LoVel="0" HiVel="41" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_99_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="102" LoKey="102" HiKey="104" LoVel="0" HiVel="41" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_102_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="102" LoKey="102" HiKey="104" LoVel="0" HiVel="41" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_102_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="102" LoKey="102" HiKey="104" LoVel="0" HiVel="41" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_102_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="105" LoKey="105" HiKey="107" LoVel="0" HiVel="41" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_105_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="105" LoKey="105" HiKey="107" LoVel="0" HiVel="41" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_105_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="105" LoKey="105" HiKey="107" LoVel="0" HiVel="41" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_105_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="108" LoKey="108" HiKey="110" LoVel="0" HiVel="41" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_108_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="108" LoKey="108" HiKey="110" LoVel="0" HiVel="41" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_108_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="108" LoKey="108" HiKey="110" LoVel="0" HiVel="41" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_108_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="111" LoKey="111" HiKey="111" LoVel="0" HiVel="41" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_111_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="111" LoKey="111" HiKey="111" LoVel="0" HiVel="41" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_111_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="111" LoKey="111" HiKey="111" LoVel="0" HiVel="41" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_111_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="72" LoKey="72" HiKey="74" LoVel="42" HiVel="84" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_72_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="72" LoKey="72" HiKey="74" LoVel="42" HiVel="84" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_72_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="72" LoKey="72" HiKey="76" LoVel="42" HiVel="84" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_72_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="75" LoKey="75" HiKey="77" LoVel="42" HiVel="84" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_75_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="75" LoKey="75" HiKey="79" LoVel="42" HiVel="84" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_75_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="78" LoKey="78" HiKey="80" LoVel="42" HiVel="84" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_78_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="78" LoKey="77" HiKey="80" LoVel="42" HiVel="84" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_78_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="81" LoKey="81" HiKey="83" LoVel="42" HiVel="84" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_81_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="81" LoKey="80" HiKey="83" LoVel="42" HiVel="84" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_81_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="81" LoKey="81" HiKey="83" LoVel="42" HiVel="84" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_81_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="84" LoKey="84" HiKey="86" LoVel="42" HiVel="84" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_84_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="84" LoKey="84" HiKey="86" LoVel="42" HiVel="84" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_84_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="84" LoKey="84" HiKey="86" LoVel="42" HiVel="84" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_84_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="87" LoKey="87" HiKey="89" LoVel="42" HiVel="84" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_87_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="87" LoKey="87" HiKey="89" LoVel="42" HiVel="84" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_87_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="87" LoKey="87" HiKey="89" LoVel="42" HiVel="84" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_87_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="90" LoKey="90" HiKey="92" LoVel="42" HiVel="84" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_90_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="90" LoKey="90" HiKey="92" LoVel="42" HiVel="84" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_90_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="90" LoKey="90" HiKey="92" LoVel="42" HiVel="84" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_90_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="93" LoKey="93" HiKey="95" LoVel="42" HiVel="84" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_93_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="93" LoKey="93" HiKey="95" LoVel="42" HiVel="84" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_93_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="93" LoKey="93" HiKey="95" LoVel="42" HiVel="84" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_93_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="96" LoKey="96" HiKey="98" LoVel="42" HiVel="84" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_96_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="96" LoKey="96" HiKey="98" LoVel="42" HiVel="84" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_96_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="96" LoKey="96" HiKey="98" LoVel="42" HiVel="84" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_96_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="99" LoKey="99" HiKey="101" LoVel="42" HiVel="84" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_99_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="99" LoKey="99" HiKey="101" LoVel="42" HiVel="84" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_99_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="99" LoKey="99" HiKey="101" LoVel="42" HiVel="84" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_99_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="102" LoKey="102" HiKey="104" LoVel="42" HiVel="84" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_102_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="102" LoKey="102" HiKey="104" LoVel="42" HiVel="84" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_102_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="102" LoKey="102" HiKey="104" LoVel="42" HiVel="84" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_102_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="105" LoKey="105" HiKey="107" LoVel="42" HiVel="84" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_105_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="105" LoKey="105" HiKey="107" LoVel="42" HiVel="84" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_105_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="105" LoKey="105" HiKey="107" LoVel="42" HiVel="84" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_105_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="108" LoKey="108" HiKey="110" LoVel="42" HiVel="84" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_108_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="108" LoKey="108" HiKey="110" LoVel="42" HiVel="84" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_108_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="108" LoKey="108" HiKey="110" LoVel="42" HiVel="84" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_108_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="111" LoKey="111" HiKey="111" LoVel="42" HiVel="84" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_111_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="111" LoKey="111" HiKey="111" LoVel="42" HiVel="84" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_111_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="111" LoKey="111" HiKey="111" LoVel="42" HiVel="84" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_111_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="72" LoKey="72" HiKey="74" LoVel="85" HiVel="127" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_72_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="72" LoKey="72" HiKey="74" LoVel="85" HiVel="127" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_72_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="72" LoKey="72" HiKey="74" LoVel="85" HiVel="127" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_72_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="75" LoKey="75" HiKey="77" LoVel="85" HiVel="127" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_75_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="75" LoKey="75" HiKey="77" LoVel="85" HiVel="127" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_75_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="75" LoKey="75" HiKey="77" LoVel="85" HiVel="127" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_75_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="78" LoKey="78" HiKey="80" LoVel="85" HiVel="127" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_78_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="78" LoKey="78" HiKey="80" LoVel="85" HiVel="127" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_78_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="78" LoKey="78" HiKey="80" LoVel="85" HiVel="127" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_78_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="81" LoKey="81" HiKey="83" LoVel="85" HiVel="127" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_81_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="81" LoKey="81" HiKey="83" LoVel="85" HiVel="127" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_81_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="81" LoKey="81" HiKey="83" LoVel="85" HiVel="127" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_81_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="84" LoKey="84" HiKey="86" LoVel="85" HiVel="127" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_84_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="84" LoKey="84" HiKey="86" LoVel="85" HiVel="127" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_84_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="84" LoKey="84" HiKey="86" LoVel="85" HiVel="127" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_84_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="87" LoKey="87" HiKey="89" LoVel="85" HiVel="127" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_87_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="87" LoKey="87" HiKey="89" LoVel="85" HiVel="127" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_87_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="87" LoKey="87" HiKey="89" LoVel="85" HiVel="127" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_87_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="90" LoKey="90" HiKey="92" LoVel="85" HiVel="127" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_90_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="90" LoKey="90" HiKey="92" LoVel="85" HiVel="127" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_90_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="90" LoKey="90" HiKey="92" LoVel="85" HiVel="127" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_90_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="93" LoKey="93" HiKey="95" LoVel="85" HiVel="127" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_93_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="93" LoKey="93" HiKey="95" LoVel="85" HiVel="127" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_93_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="93" LoKey="93" HiKey="95" LoVel="85" HiVel="127" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_93_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="96" LoKey="96" HiKey="98" LoVel="85" HiVel="127" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_96_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="96" LoKey="96" HiKey="98" LoVel="85" HiVel="127" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_96_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="96" LoKey="96" HiKey="98" LoVel="85" HiVel="127" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_96_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="99" LoKey="99" HiKey="101" LoVel="85" HiVel="127" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_99_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="99" LoKey="99" HiKey="101" LoVel="85" HiVel="127" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_99_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="99" LoKey="99" HiKey="101" LoVel="85" HiVel="127" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_99_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="102" LoKey="102" HiKey="104" LoVel="85" HiVel="127" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_102_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="102" LoKey="102" HiKey="104" LoVel="85" HiVel="127" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_102_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="102" LoKey="102" HiKey="104" LoVel="85" HiVel="127" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_102_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="105" LoKey="105" HiKey="107" LoVel="85" HiVel="127" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_105_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="105" LoKey="105" HiKey="107" LoVel="85" HiVel="127" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_105_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="105" LoKey="105" HiKey="107" LoVel="85" HiVel="127" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_105_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="108" LoKey="108" HiKey="110" LoVel="85" HiVel="127" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_108_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="108" LoKey="108" HiKey="110" LoVel="85" HiVel="127" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_108_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="108" LoKey="108" HiKey="110" LoVel="85" HiVel="127" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_108_RR3.wav"
-                Duplicate="1"/>
-        <sample Root="111" LoKey="111" HiKey="111" LoVel="85" HiVel="127" RRGroup="1"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_111_RR1.wav"
-                Duplicate="1"/>
-        <sample Root="111" LoKey="111" HiKey="111" LoVel="85" HiVel="127" RRGroup="2"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_111_RR2.wav"
-                Duplicate="1"/>
-        <sample Root="111" LoKey="111" HiKey="111" LoVel="85" HiVel="127" RRGroup="3"
-                FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_111_RR3.wav"
-                Duplicate="1"/>
-      </samplemap>
     </Processor>
   </ChildProcessors>
   <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
