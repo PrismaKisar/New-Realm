@@ -30,10 +30,13 @@ namespace Transposers {
     attackTransposerPanel.setPaintRoutine(function (g) {
         g.fillAll(Colours.transparentBlack);
         
-        var startOffset = 2.5;
+        var limit = 2.5;
+        var normalizedValue = attackTransposer.getValueNormalized();
+        var startOffset = 0;        
+        var endOffset = ((normalizedValue - 0.5) / 0.5) * limit;
         var arcThickness = 5;
         var margin = 2.5;
-        var normalizedValue = attackTransposer.getValueNormalized();
+        
 
         function getPathArea(p, scale) {
             var area = p.getBounds(scale);
@@ -42,11 +45,8 @@ namespace Transposers {
             return area;
         }
 
-        var endOffset = Math.max(-startOffset + 2.0 * startOffset * normalizedValue, -startOffset + 0.1);
-
-
         var activeArc = Content.createPath();
-        activeArc.addArc([0, 0, 1, 1], -startOffset, endOffset);
+        activeArc.addArc([0, 0, 1, 1], startOffset, endOffset);
         g.setColour("0x7040798C");
         var activeArea = getPathArea(activeArc, 85);
         g.drawPath(activeArc, activeArea, arcThickness);
@@ -61,14 +61,17 @@ namespace Transposers {
     
     sustainTransposer.setControlCallback(onSustainTransposerControl);
     const var sustainTransposerPanel = Content.getComponent("sustainTransposerPanel");
+    
     sustainTransposerPanel.setPaintRoutine(function (g) {
         g.fillAll(Colours.transparentBlack);
-
-
-        var startOffset = 2.5;
+        
+        var limit = 2.5;
+        var normalizedValue = sustainTransposer.getValueNormalized();
+        var startOffset = 0;        
+        var endOffset = ((normalizedValue - 0.5) / 0.5) * limit;
         var arcThickness = 5;
         var margin = 2.5;
-        var normalizedValue = sustainTransposer.getValueNormalized();
+        
 
         function getPathArea(p, scale) {
             var area = p.getBounds(scale);
@@ -77,11 +80,8 @@ namespace Transposers {
             return area;
         }
 
-        var endOffset = Math.max(-startOffset + 2.0 * startOffset * normalizedValue, -startOffset + 0.1);
-
-
         var activeArc = Content.createPath();
-        activeArc.addArc([0, 0, 1, 1], -startOffset, endOffset);
+        activeArc.addArc([0, 0, 1, 1], startOffset, endOffset);
         g.setColour("0x7040798C");
         var activeArea = getPathArea(activeArc, 85);
         g.drawPath(activeArc, activeArea, arcThickness);
