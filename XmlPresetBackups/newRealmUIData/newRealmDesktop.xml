@@ -63,4 +63,6 @@
              middlePosition="0.0"/>
   <Component type="ScriptPanel" id="resizablePanel" x="890.0" y="590.0" width="10.0"
              height="10.0" allowCallbacks="Clicks, Hover &amp; Dragging" itemColour="822018048"/>
+  <Component type="ScriptLabel" id="LIM" x="519.0" y="566.0" text="coded at Laboratorio di Informatica Musicale by Alessandro Sarchi"
+             textColour="2101377420" height="31.0" width="372.0"/>
 </ContentProperties>
