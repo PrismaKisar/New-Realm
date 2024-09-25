@@ -1,572 +1,761 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap CrossfadeGamma="1.0" ID="marimbaSustain" RRGroupAmount="3.0"
-           MicPositions=";">
+<samplemap CrossfadeGamma="1.0" ID="09. marimbaSustain" RRGroupAmount="3.0"
+           MicPositions=";" SaveMode="2">
   <sample Root="36" LoKey="36" HiKey="38" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_36_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="0" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="36" LoKey="36" HiKey="38" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_36_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="122880" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="36" LoKey="36" HiKey="38" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_36_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="245760" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="39" LoKey="39" HiKey="41" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_39_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="368640" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="39" LoKey="39" HiKey="41" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_39_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="491520" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="39" LoKey="39" HiKey="41" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_39_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="614400" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="42" LoKey="42" HiKey="44" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_42_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="737280" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="42" LoKey="42" HiKey="44" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_42_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="860160" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="42" LoKey="42" HiKey="44" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_42_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="983040" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_45_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="1105920" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_45_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="1228800" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_45_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="1351680" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_48_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="1474560" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_48_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="1597440" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_48_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="1720320" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_51_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="1843200" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_51_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="1966080" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_51_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="2088960" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_54_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="2211840" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_54_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="2334720" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_54_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="2457600" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_57_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="2580480" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_57_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="2703360" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_57_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="2826240" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_60_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="2949120" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_60_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="3072000" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_60_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="3194880" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_63_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="3317760" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_63_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="3440640" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_63_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="3563520" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_66_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="3686400" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_66_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="3809280" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_66_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="3932160" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_69_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="4055040" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_69_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="4177920" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_69_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="4300800" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_72_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="4423680" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_72_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="4546560" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_72_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="4669440" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_75_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="4792320" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_75_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="4915200" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_75_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="5038080" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_78_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="5160960" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_78_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="5283840" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_78_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="5406720" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_81_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="5529600" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_81_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="5652480" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_81_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="5775360" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_84_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="5898240" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_84_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="6021120" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_84_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="6144000" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_87_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="6266880" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_87_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="6389760" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_87_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="6512640" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_90_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="6635520" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_90_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="6758400" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_90_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="6881280" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_93_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="7004160" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_93_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="7127040" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_93_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="7249920" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_96_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="7372800" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_96_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="7495680" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn1_96_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="119515" MonolithOffset="7618560" MonolithLength="122880"
+          SampleRate="48000.0"/>
   <sample Root="36" LoKey="36" HiKey="38" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_36_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="7741440" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="36" LoKey="36" HiKey="38" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_36_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="7872512" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="36" LoKey="36" HiKey="38" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_36_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="8003584" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="39" LoKey="39" HiKey="41" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_39_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="8134656" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="39" LoKey="39" HiKey="41" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_39_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="8265728" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="39" LoKey="39" HiKey="41" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_39_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="8396800" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="42" LoKey="42" HiKey="44" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_42_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="8527872" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="42" LoKey="42" HiKey="44" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_42_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="8658944" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="42" LoKey="42" HiKey="44" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_42_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="8790016" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_45_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="8921088" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_45_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="9052160" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_45_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="9183232" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_48_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="9314304" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_48_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="9445376" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_48_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="9576448" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_51_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="9707520" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_51_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="9838592" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_51_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="9969664" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_54_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="10100736" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_54_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="10231808" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_54_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="10362880" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_57_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="10493952" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_57_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="10625024" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_57_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="10756096" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_60_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="10887168" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_60_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="11018240" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_60_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="11149312" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_63_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="11280384" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_63_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="11411456" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_63_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="11542528" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_66_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="11673600" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_66_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="11804672" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_66_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="11935744" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_69_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="12066816" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_69_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="12197888" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_69_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="12328960" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_72_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="12460032" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_72_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="12591104" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_72_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="12722176" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_75_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="12853248" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_75_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="12984320" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_75_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="13115392" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_78_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="13246464" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_78_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="13377536" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_78_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="13508608" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_81_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="13639680" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_81_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="13770752" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_81_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="13901824" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_84_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="14032896" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_84_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="14163968" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_84_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="14295040" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_87_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="14426112" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_87_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="14557184" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_87_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="14688256" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_90_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="14819328" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_90_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="14950400" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_90_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="15081472" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_93_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="15212544" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_93_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="15343616" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_93_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="15474688" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_96_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="15605760" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_96_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="15736832" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn2_96_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="127638" MonolithOffset="15867904" MonolithLength="131072"
+          SampleRate="48000.0"/>
   <sample Root="36" LoKey="36" HiKey="38" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_36_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="15998976" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="36" LoKey="36" HiKey="38" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_36_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="16166912" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="36" LoKey="36" HiKey="38" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_36_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="16334848" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="39" LoKey="39" HiKey="41" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_39_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="16502784" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="39" LoKey="39" HiKey="41" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_39_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="16670720" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="39" LoKey="39" HiKey="41" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_39_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="16838656" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="42" LoKey="42" HiKey="44" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_42_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="17006592" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="42" LoKey="42" HiKey="44" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_42_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="17174528" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="42" LoKey="42" HiKey="44" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_42_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="17342464" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_45_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="17510400" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_45_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="17678336" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_45_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="17846272" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_48_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="18014208" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_48_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="18182144" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_48_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="18350080" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_51_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="18518016" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_51_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="18685952" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_51_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="18853888" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_54_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="19021824" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_54_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="19189760" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_54_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="19357696" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_57_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="19525632" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_57_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="19693568" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_57_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="19861504" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_60_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="20029440" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_60_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="20197376" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_60_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="20365312" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_63_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="20533248" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_63_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="20701184" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_63_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="20869120" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_66_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="21037056" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_66_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="21204992" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_66_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="21372928" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_69_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="21540864" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_69_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="21708800" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_69_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="21876736" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_72_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="22044672" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_72_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="22212608" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_72_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="22380544" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_75_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="22548480" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_75_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="22716416" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_75_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="22884352" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_78_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="23052288" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_78_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="23220224" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_78_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="23388160" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_81_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="23556096" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_81_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="23724032" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_81_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="23891968" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_84_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="24059904" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_84_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="24227840" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_84_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="24395776" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_87_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="24563712" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_87_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="24731648" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_87_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="24899584" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_90_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="25067520" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_90_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="25235456" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_90_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="25403392" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_93_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="25571328" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_93_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="25739264" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_93_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="25907200" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_96_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="26075136" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_96_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="26243072" MonolithLength="167936"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}marimba/notes/marimba_notes_dyn3_96_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="166615" MonolithOffset="26411008" MonolithLength="167936"
+          SampleRate="48000.0"/>
 </samplemap>

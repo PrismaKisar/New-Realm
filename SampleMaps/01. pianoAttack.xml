@@ -1,814 +1,1085 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap CrossfadeGamma="1.0" ID="pianoAttack" RRGroupAmount="3.0" MicPositions=";">
+<samplemap CrossfadeGamma="1.0" ID="01. pianoAttack" RRGroupAmount="3.0"
+           MicPositions=";" SaveMode="2">
   <sample Root="21" LoKey="21" HiKey="23" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_21_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="0" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="21" LoKey="21" HiKey="23" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_21_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="8192" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="21" LoKey="21" HiKey="23" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_21_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="16384" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="24" LoKey="24" HiKey="26" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_24_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="24576" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="24" LoKey="24" HiKey="26" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_24_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="32768" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="24" LoKey="24" HiKey="26" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_24_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="40960" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="27" LoKey="27" HiKey="29" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_27_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="49152" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="27" LoKey="27" HiKey="29" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_27_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="57344" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="27" LoKey="27" HiKey="29" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_27_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="65536" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="30" LoKey="30" HiKey="32" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_30_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="73728" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="30" LoKey="30" HiKey="32" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_30_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="81920" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="30" LoKey="30" HiKey="32" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_30_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="90112" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="33" LoKey="33" HiKey="35" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_33_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="98304" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="33" LoKey="33" HiKey="35" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_33_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="106496" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="33" LoKey="33" HiKey="35" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_33_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="114688" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="36" LoKey="36" HiKey="38" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_36_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="122880" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="36" LoKey="36" HiKey="38" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_36_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="131072" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="36" LoKey="36" HiKey="38" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_36_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="139264" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="39" LoKey="39" HiKey="41" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_39_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="147456" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="39" LoKey="39" HiKey="41" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_39_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="155648" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="39" LoKey="39" HiKey="41" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_39_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="163840" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="42" LoKey="42" HiKey="44" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_42_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="172032" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="42" LoKey="42" HiKey="44" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_42_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="180224" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="42" LoKey="42" HiKey="44" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_42_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="188416" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_45_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="196608" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_45_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="204800" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_45_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="212992" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_48_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="221184" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_48_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="229376" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_48_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="237568" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_51_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="245760" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_51_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="253952" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_51_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="262144" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_54_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="270336" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_54_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="278528" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_54_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="286720" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_57_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="294912" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_57_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="303104" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_57_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="311296" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_60_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="319488" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_60_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="327680" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_60_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="335872" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_63_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="344064" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_63_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="352256" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_63_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="360448" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_66_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="368640" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_66_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="376832" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_66_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="385024" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_69_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="393216" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_69_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="401408" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_69_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="409600" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_72_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="417792" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_72_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="425984" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_72_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="434176" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_75_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="442368" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_75_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="450560" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_75_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="458752" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_78_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="466944" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_78_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="475136" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_78_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="483328" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_81_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="491520" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_81_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="499712" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_81_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="507904" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_84_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="516096" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_84_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="524288" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_84_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="532480" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_87_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="540672" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_87_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="548864" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_87_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="557056" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_90_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="565248" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_90_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="573440" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_90_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="581632" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_93_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="589824" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_93_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="598016" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_93_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="606208" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="98" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_96_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="614400" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="98" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_96_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="622592" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="99" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_96_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="630784" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="99" LoKey="99" HiKey="101" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_99_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="638976" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="99" LoKey="99" HiKey="101" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_99_RR2_2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="647168" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="99" LoKey="99" HiKey="101" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_99_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="655360" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="102" LoKey="102" HiKey="104" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_102_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="663552" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="102" LoKey="102" HiKey="104" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_102_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="671744" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="102" LoKey="100" HiKey="104" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_102_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="679936" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="105" LoKey="105" HiKey="107" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_105_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="688128" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="105" LoKey="105" HiKey="107" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_105_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="696320" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="105" LoKey="105" HiKey="107" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_105_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="704512" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="108" LoKey="108" HiKey="108" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_108_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="712704" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="108" LoKey="108" HiKey="108" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_108_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="720896" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="108" LoKey="108" HiKey="108" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn1_108_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="729088" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="21" LoKey="21" HiKey="23" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_21_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="737280" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="21" LoKey="21" HiKey="23" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_21_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="745472" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="21" LoKey="21" HiKey="23" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_21_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="753664" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="24" LoKey="24" HiKey="26" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_24_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="761856" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="24" LoKey="24" HiKey="26" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_24_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="770048" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="24" LoKey="24" HiKey="26" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_24_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="778240" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="27" LoKey="27" HiKey="29" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_27_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="786432" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="27" LoKey="27" HiKey="29" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_27_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="794624" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="27" LoKey="27" HiKey="29" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_27_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="802816" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="30" LoKey="30" HiKey="32" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_30_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="811008" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="30" LoKey="30" HiKey="32" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_30_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="819200" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="30" LoKey="30" HiKey="32" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_30_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="827392" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="33" LoKey="33" HiKey="35" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_33_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="835584" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="33" LoKey="33" HiKey="35" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_33_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="843776" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="33" LoKey="33" HiKey="35" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_33_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="851968" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="36" LoKey="36" HiKey="38" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_36_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="860160" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="36" LoKey="36" HiKey="38" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_36_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="868352" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="36" LoKey="36" HiKey="38" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_36_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="876544" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="39" LoKey="39" HiKey="41" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_39_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="884736" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="39" LoKey="39" HiKey="41" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_39_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="892928" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="39" LoKey="39" HiKey="41" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_39_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="901120" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="42" LoKey="42" HiKey="44" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_42_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="909312" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="42" LoKey="42" HiKey="44" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_42_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="917504" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="42" LoKey="42" HiKey="44" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_42_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="925696" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_45_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="933888" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_45_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="942080" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_45_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="950272" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_48_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="958464" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_48_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="966656" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_48_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="974848" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_51_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="983040" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_51_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="991232" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_51_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="999424" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_54_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1007616" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_54_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1015808" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_54_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1024000" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_57_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1032192" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_57_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1040384" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_57_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1048576" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_60_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1056768" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_60_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1064960" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_60_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1073152" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_63_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1081344" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_63_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1089536" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_63_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1097728" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_66_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1105920" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_66_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1114112" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_66_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1122304" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_69_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1130496" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_69_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1138688" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_69_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1146880" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_72_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1155072" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_72_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1163264" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_72_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1171456" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_75_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1179648" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_75_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1187840" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_75_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1196032" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_78_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1204224" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_78_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1212416" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_78_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1220608" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_81_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1228800" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_81_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1236992" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_81_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1245184" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_84_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1253376" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_84_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1261568" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_84_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1269760" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_87_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1277952" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_87_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1286144" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_87_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1294336" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_90_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1302528" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_90_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1310720" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_90_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1318912" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_93_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1327104" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_93_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1335296" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_93_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1343488" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="98" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_96_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1351680" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="98" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_96_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1359872" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="99" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_96_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1368064" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="99" LoKey="99" HiKey="101" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_99_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1376256" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="99" LoKey="99" HiKey="101" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_99_RR2_2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1384448" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="99" LoKey="99" HiKey="101" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_99_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1392640" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="102" LoKey="102" HiKey="104" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_102_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1400832" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="102" LoKey="102" HiKey="104" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_102_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1409024" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="102" LoKey="100" HiKey="104" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_102_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1417216" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="105" LoKey="105" HiKey="107" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_105_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1425408" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="105" LoKey="105" HiKey="107" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_105_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1433600" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="105" LoKey="105" HiKey="107" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_105_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1441792" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="108" LoKey="108" HiKey="108" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_108_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1449984" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="108" LoKey="108" HiKey="108" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_108_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1458176" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="108" LoKey="108" HiKey="108" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn2_108_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4136" MonolithOffset="1466368" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="21" LoKey="21" HiKey="23" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_21_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1474560" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="21" LoKey="21" HiKey="23" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_21_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1482752" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="21" LoKey="21" HiKey="23" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_21_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1490944" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="24" LoKey="24" HiKey="26" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_24_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1499136" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="24" LoKey="24" HiKey="26" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_24_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1507328" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="24" LoKey="24" HiKey="26" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_24_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1515520" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="27" LoKey="27" HiKey="29" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_27_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1523712" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="27" LoKey="27" HiKey="29" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_27_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1531904" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="27" LoKey="27" HiKey="29" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_27_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1540096" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="30" LoKey="30" HiKey="32" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_30_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1548288" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="30" LoKey="30" HiKey="32" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_30_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1556480" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="30" LoKey="30" HiKey="32" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_30_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1564672" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="33" LoKey="33" HiKey="35" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_33_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1572864" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="33" LoKey="33" HiKey="35" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_33_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1581056" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="33" LoKey="33" HiKey="35" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_33_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1589248" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="36" LoKey="36" HiKey="38" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_36_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1597440" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="36" LoKey="36" HiKey="38" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_36_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1605632" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="36" LoKey="36" HiKey="38" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_36_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1613824" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="39" LoKey="39" HiKey="41" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_39_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1622016" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="39" LoKey="39" HiKey="41" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_39_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1630208" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="39" LoKey="39" HiKey="41" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_39_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1638400" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="42" LoKey="42" HiKey="44" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_42_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1646592" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="42" LoKey="42" HiKey="44" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_42_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1654784" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="42" LoKey="42" HiKey="44" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_42_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1662976" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_45_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1671168" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_45_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1679360" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_45_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1687552" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_48_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1695744" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_48_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1703936" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_48_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1712128" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_51_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1720320" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_51_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1728512" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_51_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1736704" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_54_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1744896" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_54_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1753088" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_54_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1761280" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_57_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1769472" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_57_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1777664" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_57_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1785856" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_60_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1794048" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_60_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1802240" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_60_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1810432" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_63_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1818624" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_63_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1826816" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_63_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1835008" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_66_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1843200" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_66_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1851392" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_66_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1859584" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_69_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1867776" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_69_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1875968" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_69_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1884160" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_72_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1892352" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_72_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1900544" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_72_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1908736" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_75_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1916928" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_75_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1925120" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_75_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1933312" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_78_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1941504" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_78_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1949696" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_78_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1957888" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_81_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1966080" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_81_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1974272" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_81_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1982464" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_84_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1990656" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_84_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="1998848" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_84_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="2007040" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_87_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="2015232" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_87_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="2023424" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_87_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="2031616" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_90_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="2039808" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_90_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="2048000" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_90_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="2056192" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_93_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="2064384" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_93_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="2072576" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_93_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="2080768" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="98" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_96_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="2088960" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="98" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_96_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="2097152" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="99" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_96_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="2105344" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="99" LoKey="99" HiKey="101" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_99_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="2113536" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="99" LoKey="99" HiKey="101" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_99_RR2_2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="2121728" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="99" LoKey="99" HiKey="101" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_99_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="2129920" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="102" LoKey="102" HiKey="104" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_102_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="2138112" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="102" LoKey="102" HiKey="104" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_102_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="2146304" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="102" LoKey="100" HiKey="104" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_102_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="2154496" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="105" LoKey="105" HiKey="107" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_105_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="2162688" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="105" LoKey="105" HiKey="107" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_105_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="2170880" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="105" LoKey="105" HiKey="107" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_105_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="2179072" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="108" LoKey="108" HiKey="108" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_108_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="2187264" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="108" LoKey="108" HiKey="108" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_108_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="2195456" MonolithLength="8192"
+          SampleRate="48000.0"/>
   <sample Root="108" LoKey="108" HiKey="108" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}piano/keys/piano_keys_dyn3_108_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="4286" MonolithOffset="2203648" MonolithLength="8192"
+          SampleRate="48000.0"/>
 </samplemap>

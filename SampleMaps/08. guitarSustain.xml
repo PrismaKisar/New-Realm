@@ -1,383 +1,509 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap CrossfadeGamma="1.0" ID="7. guitarSustain" RRGroupAmount="3.0"
-           MicPositions=";">
+<samplemap CrossfadeGamma="1.0" ID="08. guitarSustain" RRGroupAmount="3.0"
+           MicPositions=";" SaveMode="2">
   <sample Root="42" LoKey="42" HiKey="44" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_42_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="0" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="42" LoKey="42" HiKey="44" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_42_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="196608" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="42" LoKey="42" HiKey="44" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_42_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="393216" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_45_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="589824" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_45_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="786432" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_45_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="983040" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_48_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="1179648" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_48_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="1376256" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_48_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="1572864" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_51_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="1769472" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_51_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="1966080" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_51_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="2162688" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_54_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="2359296" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_54_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="2555904" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_54_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="2752512" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_57_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="2949120" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_57_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="3145728" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_57_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="3342336" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_60_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="3538944" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_60_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="3735552" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_60_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="3932160" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_63_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="4128768" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_63_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="4325376" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_63_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="4521984" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_66_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="4718592" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_66_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="4915200" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_66_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="5111808" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_69_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="5308416" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_69_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="5505024" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_69_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="5701632" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_72_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="5898240" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_72_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="6094848" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_72_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="6291456" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_75_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="6488064" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_75_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="6684672" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_75_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="6881280" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_78_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="7077888" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_78_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="7274496" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_78_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="7471104" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_81_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="7667712" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_81_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="7864320" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn1_81_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="8060928" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="42" LoKey="42" HiKey="44" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_42_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="8257536" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="42" LoKey="42" HiKey="44" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_42_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="8478720" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="42" LoKey="42" HiKey="44" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_42_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="8699904" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_45_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="8921088" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_45_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="9142272" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_45_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="9363456" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_48_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="9584640" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_48_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="9805824" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_48_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="10027008" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_51_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="10248192" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_51_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="10469376" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_51_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="10690560" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_54_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="10911744" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_54_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="11132928" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_54_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="11354112" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_57_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="11575296" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_57_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="11796480" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_57_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="12017664" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_60_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="12238848" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_60_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="12460032" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_60_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="12681216" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_63_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="12902400" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_63_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="13123584" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_63_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="13344768" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_66_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="13565952" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_66_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="13787136" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_66_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="14008320" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_69_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="14229504" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_69_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="14450688" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_69_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="14671872" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_72_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="14893056" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_72_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="15114240" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_72_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="15335424" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_75_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="15556608" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_75_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="15777792" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_75_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="15998976" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_78_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="16220160" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_78_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="16441344" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_78_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="16662528" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_81_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="16883712" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_81_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="17104896" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn2_81_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="17326080" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="42" LoKey="42" HiKey="44" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_42_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="17547264" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="42" LoKey="42" HiKey="44" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_42_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="17768448" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="42" LoKey="42" HiKey="44" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_42_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="17989632" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_45_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="18210816" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_45_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="18432000" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="45" LoKey="45" HiKey="47" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_45_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="18653184" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_48_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="18874368" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_48_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="19095552" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_48_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="19316736" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_51_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="19537920" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_51_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="19759104" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_51_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="19980288" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_54_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="20201472" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_54_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="20422656" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_54_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="20643840" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_57_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="20865024" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_57_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="21086208" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_57_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="21307392" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_60_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="21528576" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_60_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="21749760" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_60_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="21970944" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_63_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="22192128" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_63_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="22413312" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_63_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="22634496" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_66_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="22855680" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_66_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="23076864" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_66_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="23298048" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_69_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="23519232" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_69_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="23740416" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_69_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="23961600" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_72_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="24182784" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_72_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="24403968" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_72_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="24625152" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_75_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="24846336" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_75_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="25067520" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_75_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="25288704" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_78_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="25509888" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_78_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="25731072" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_78_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="25952256" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_81_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="26173440" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_81_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="26394624" MonolithLength="221184"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}guitar/notes/guitar_note_dyn3_81_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="1" SampleEnd="220993" MonolithOffset="26615808" MonolithLength="221184"
+          SampleRate="48000.0"/>
 </samplemap>

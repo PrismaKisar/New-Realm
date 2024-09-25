@@ -1,377 +1,501 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap CrossfadeGamma="1.0" ID="glockenspielSustain" RRGroupAmount="3.0"
-           MicPositions=";">
+<samplemap CrossfadeGamma="1.0" ID="11. glockenspielSustain" RRGroupAmount="3.0"
+           MicPositions=";" SaveMode="2">
   <sample Root="72" LoKey="72" HiKey="74" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_72_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="0" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_72_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="196608" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_72_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="393216" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_75_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="589824" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_75_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="786432" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_75_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="983040" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_78_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="1179648" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_78_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="1376256" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_78_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="1572864" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_81_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="1769472" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_81_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="1966080" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_81_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="2162688" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_84_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="2359296" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_84_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="2555904" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_84_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="2752512" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_87_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="2949120" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_87_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="3145728" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_87_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="3342336" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_90_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="3538944" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_90_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="3735552" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_90_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="3932160" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_93_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="4128768" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_93_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="4325376" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_93_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="4521984" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="98" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_96_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="4718592" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="98" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_96_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="4915200" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="98" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_96_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="5111808" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="99" LoKey="99" HiKey="101" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_99_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="5308416" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="99" LoKey="99" HiKey="101" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_99_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="5505024" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="99" LoKey="99" HiKey="101" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_99_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="5701632" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="102" LoKey="102" HiKey="104" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_102_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="5898240" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="102" LoKey="102" HiKey="104" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_102_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="6094848" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="102" LoKey="102" HiKey="104" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_102_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="6291456" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="105" LoKey="105" HiKey="107" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_105_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="6488064" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="105" LoKey="105" HiKey="107" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_105_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="6684672" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="105" LoKey="105" HiKey="107" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_105_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="6881280" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="108" LoKey="108" HiKey="110" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_108_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="7077888" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="108" LoKey="108" HiKey="110" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_108_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="7274496" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="108" LoKey="108" HiKey="110" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_108_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="7471104" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="111" LoKey="111" HiKey="111" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_111_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="7667712" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="111" LoKey="111" HiKey="111" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_111_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="7864320" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="111" LoKey="111" HiKey="111" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn1_111_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="195450" MonolithOffset="8060928" MonolithLength="196608"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_72_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="8257536" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_72_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="8458240" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="76" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_72_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="8658944" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_75_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="8859648" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="79" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_75_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="9060352" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_78_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="9261056" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="77" HiKey="80" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_78_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="9461760" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_81_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="9662464" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="80" HiKey="83" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_81_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="9863168" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_81_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="10063872" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_84_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="10264576" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_84_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="10465280" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_84_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="10665984" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_87_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="10866688" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_87_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="11067392" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_87_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="11268096" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_90_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="11468800" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_90_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="11669504" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_90_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="11870208" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_93_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="12070912" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_93_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="12271616" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_93_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="12472320" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="98" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_96_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="12673024" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="98" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_96_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="12873728" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="98" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_96_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="13074432" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="99" LoKey="99" HiKey="101" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_99_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="13275136" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="99" LoKey="99" HiKey="101" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_99_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="13475840" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="99" LoKey="99" HiKey="101" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_99_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="13676544" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="102" LoKey="102" HiKey="104" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_102_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="13877248" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="102" LoKey="102" HiKey="104" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_102_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="14077952" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="102" LoKey="102" HiKey="104" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_102_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="14278656" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="105" LoKey="105" HiKey="107" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_105_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="14479360" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="105" LoKey="105" HiKey="107" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_105_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="14680064" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="105" LoKey="105" HiKey="107" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_105_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="14880768" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="108" LoKey="108" HiKey="110" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_108_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="15081472" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="108" LoKey="108" HiKey="110" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_108_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="15282176" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="108" LoKey="108" HiKey="110" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_108_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="15482880" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="111" LoKey="111" HiKey="111" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_111_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="15683584" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="111" LoKey="111" HiKey="111" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_111_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="15884288" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="111" LoKey="111" HiKey="111" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn2_111_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="198921" MonolithOffset="16084992" MonolithLength="200704"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_72_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="16285696" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_72_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="16527360" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_72_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="16769024" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_75_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="17010688" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_75_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="17252352" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_75_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="17494016" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_78_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="17735680" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_78_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="17977344" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_78_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="18219008" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_81_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="18460672" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_81_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="18702336" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_81_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="18944000" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_84_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="19185664" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_84_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="19427328" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_84_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="19668992" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_87_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="19910656" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_87_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="20152320" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_87_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="20393984" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_90_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="20635648" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_90_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="20877312" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_90_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="21118976" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_93_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="21360640" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_93_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="21602304" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_93_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="21843968" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="98" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_96_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="22085632" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="98" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_96_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="22327296" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="98" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_96_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="22568960" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="99" LoKey="99" HiKey="101" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_99_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="22810624" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="99" LoKey="99" HiKey="101" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_99_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="23052288" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="99" LoKey="99" HiKey="101" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_99_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="23293952" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="102" LoKey="102" HiKey="104" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_102_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="23535616" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="102" LoKey="102" HiKey="104" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_102_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="23777280" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="102" LoKey="102" HiKey="104" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_102_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="24018944" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="105" LoKey="105" HiKey="107" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_105_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="24260608" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="105" LoKey="105" HiKey="107" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_105_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="24502272" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="105" LoKey="105" HiKey="107" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_105_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="24743936" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="108" LoKey="108" HiKey="110" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_108_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="24985600" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="108" LoKey="108" HiKey="110" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_108_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="25227264" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="108" LoKey="108" HiKey="110" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_108_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="25468928" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="111" LoKey="111" HiKey="111" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_111_RR1.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="25710592" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="111" LoKey="111" HiKey="111" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_111_RR2.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="25952256" MonolithLength="241664"
+          SampleRate="48000.0"/>
   <sample Root="111" LoKey="111" HiKey="111" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}glockenspiel/notes/glockenspiel_note_dyn3_111_RR3.wav"
-          Duplicate="1"/>
+          Duplicate="1" SampleEnd="239529" MonolithOffset="26193920" MonolithLength="241664"
+          SampleRate="48000.0"/>
 </samplemap>

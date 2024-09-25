@@ -1,464 +1,617 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap CrossfadeGamma="1.0" ID="vibraphoneSustain" RRGroupAmount="3.0"
-           MicPositions=";">
+<samplemap CrossfadeGamma="1.0" ID="10. vibraphoneSustain" RRGroupAmount="3.0"
+           MicPositions=";" SaveMode="2">
   <sample Root="48" LoKey="48" HiKey="50" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_48_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="0" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_48_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="212992" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_48_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="425984" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_51_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="638976" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_51_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="851968" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_51_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="1064960" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_54_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="1277952" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_54_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="1490944" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_54_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="1703936" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_57_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="1916928" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_57_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="2129920" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_57_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="2342912" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_60_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="2555904" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_60_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="2768896" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_60_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="2981888" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_63_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="3194880" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_63_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="3407872" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_63_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="3620864" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_66_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="3833856" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_66_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="4046848" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_66_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="4259840" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_69_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="4472832" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_69_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="4685824" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_69_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="4898816" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_72_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="5111808" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_72_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="5324800" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_72_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="5537792" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_75_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="5750784" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_75_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="5963776" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_75_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="6176768" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_78_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="6389760" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_78_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="6602752" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_78_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="6815744" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_81_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="7028736" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_81_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="7241728" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_81_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="7454720" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_84_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="7667712" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_84_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="7880704" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_84_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="8093696" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_87_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="8306688" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_87_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="8519680" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_87_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="8732672" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_90_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="8945664" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_90_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="9158656" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_90_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="9371648" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_93_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="9584640" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_93_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="9797632" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_93_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="10010624" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="0" HiVel="41" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_96_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="10223616" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="0" HiVel="41" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_96_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="10436608" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="0" HiVel="41" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn1_96_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="209443" MonolithOffset="10649600" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_48_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="10862592" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_48_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="11071488" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_48_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="11280384" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_51_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="11489280" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_51_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="11698176" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_51_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="11907072" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_54_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="12115968" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_54_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="12324864" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_54_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="12533760" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_57_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="12742656" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_57_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="12951552" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_57_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="13160448" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_60_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="13369344" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_60_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="13578240" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_60_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="13787136" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_63_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="13996032" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_63_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="14204928" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_63_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="14413824" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_66_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="14622720" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_66_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="14831616" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_66_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="15040512" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_69_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="15249408" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_69_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="15458304" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_69_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="15667200" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_72_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="15876096" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_72_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="16084992" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_72_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="16293888" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_75_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="16502784" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_75_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="16711680" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_75_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="16920576" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_78_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="17129472" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_78_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="17338368" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_78_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="17547264" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_81_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="17756160" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_81_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="17965056" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_81_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="18173952" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_84_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="18382848" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_84_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="18591744" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_84_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="18800640" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_87_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="19009536" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_87_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="19218432" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_87_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="19427328" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_90_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="19636224" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_90_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="19845120" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_90_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="20054016" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_93_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="20262912" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_93_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="20471808" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_93_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="20680704" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="42" HiVel="84" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_96_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="20889600" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="42" HiVel="84" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_96_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="21098496" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="42" HiVel="84" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn2_96_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="207343" MonolithOffset="21307392" MonolithLength="208896"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_48_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="21516288" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_48_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="21729280" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="48" LoKey="48" HiKey="50" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_48_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="21942272" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_51_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="22155264" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_51_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="22368256" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_51_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="22581248" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_54_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="22794240" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_54_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="23007232" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_54_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="23220224" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_57_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="23433216" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_57_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="23646208" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_57_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="23859200" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_60_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="24072192" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_60_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="24285184" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_60_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="24498176" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_63_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="24711168" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_63_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="24924160" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_63_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="25137152" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_66_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="25350144" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_66_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="25563136" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_66_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="25776128" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_69_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="25989120" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_69_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="26202112" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_69_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="26415104" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_72_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="26628096" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_72_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="26841088" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_72_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="27054080" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_75_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="27267072" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_75_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="27480064" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_75_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="27693056" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_78_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="27906048" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_78_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="28119040" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_78_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="28332032" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_81_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="28545024" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_81_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="28758016" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_81_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="28971008" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_84_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="29184000" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_84_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="29396992" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_84_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="29609984" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_87_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="29822976" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_87_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="30035968" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_87_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="30248960" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_90_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="30461952" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_90_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="30674944" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="90" LoKey="90" HiKey="92" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_90_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="30887936" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_93_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="31100928" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_93_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="31313920" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_93_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="31526912" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="85" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_96_RR1.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="31739904" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="85" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_96_RR2.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="31952896" MonolithLength="212992"
+          SampleRate="48000.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="85" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}vibraphone/notes/vibraphone_notes_dyn3_96_RR3.wav"
-          Duplicate="0"/>
+          Duplicate="0" SampleEnd="211671" MonolithOffset="32165888" MonolithLength="212992"
+          SampleRate="48000.0"/>
 </samplemap>
