@@ -4,39 +4,56 @@ namespace Selectors {
 
     const var sampleMaps = Sampler.getSampleMapList();
     
-    var paintValue = 1;
+    var attackPaintValue = 1;
+    var sustainPaintValue = 1;
     const var attackIcons = [];
     const var sustainIcons = [];
-
-    function configurePanel(panel, imageName, index) {
-        panel.data.imageName = imageName;
-        panel.data.index = index;
-        
-        panel.loadImage("{PROJECT_FOLDER}" + imageName + ".png", imageName);
-        panel.setPaintRoutine(function(g){
-            if (paintValue == this.data.index) {
-                var area = this.getLocalBounds(0);
-                g.drawImage(this.data.imageName, area, 0, 0);
-            }
-        });
-    }
-
-    function setupIcons(iconArray, panelNames, imageNames) {
-        for (var i = 0; i < panelNames.length; i++) {
-            var panel = Content.getComponent(panelNames[i]);
-            configurePanel(panel, imageNames[i], i);
-            iconArray[i] = panel;
-        }
-    }
-    
-    setupIcons(attackIcons, 
-               ["attackPianoPanel", "attackGuitarPanel", "attackVibraphonePanel", "attackMarimbaPanel", "attackGlockenspielPanel", "attackNothingPanel"], 
-               ["piano", "guitar", "vibraphone", "marimba", "glockenspiel", "nothing"]);
-               
-    setupIcons(sustainIcons, 
-               ["sustainPianoPanel", "sustainGuitarPanel", "sustainVibraphonePanel", "sustainMarimbaPanel", "sustainGlockenspielPanel", "sustainNothingPanel"], 
-               ["piano", "guitar", "vibraphone", "marimba", "glockenspiel", "nothing"]);
-
+	
+	function configureAttackPanel(panel, imageName, index) {
+	    panel.data.imageName = imageName;
+	    panel.data.index = index;
+	    
+	    panel.loadImage("{PROJECT_FOLDER}" + imageName + ".png", imageName);
+	    panel.setPaintRoutine(function(g){
+	        if (attackPaintValue == this.data.index) {
+	            var area = this.getLocalBounds(0);
+	            g.drawImage(this.data.imageName, area, 0, 0);
+	        }
+	    });
+	}
+	
+	function configureSustainPanel(panel, imageName, index) {
+	    panel.data.imageName = imageName;
+	    panel.data.index = index;
+	    
+	    panel.loadImage("{PROJECT_FOLDER}" + imageName + ".png", imageName);
+	    panel.setPaintRoutine(function(g){
+	        if (sustainPaintValue == this.data.index) {
+	            var area = this.getLocalBounds(0);
+	            g.drawImage(this.data.imageName, area, 0, 0);
+	        }
+	    });
+	}
+	
+	function setupIcons(iconArray, panelNames, imageNames, configureFunction) {
+	    for (var i = 0; i < panelNames.length; i++) {
+	        var panel = Content.getComponent(panelNames[i]);
+	        configureFunction(panel, imageNames[i], i);
+	        iconArray[i] = panel;
+	    }
+	}
+	
+	setupIcons(attackIcons, 
+	           ["attackPianoPanel", "attackGuitarPanel", "attackVibraphonePanel", "attackMarimbaPanel", "attackGlockenspielPanel", "attackNothingPanel"], 
+	           ["piano", "guitar", "vibraphone", "marimba", "glockenspiel", "nothing"],
+	           configureAttackPanel);
+	
+	setupIcons(sustainIcons, 
+	           ["sustainPianoPanel", "sustainGuitarPanel", "sustainVibraphonePanel", "sustainMarimbaPanel", "sustainGlockenspielPanel", "sustainNothingPanel"], 
+	           ["piano", "guitar", "vibraphone", "marimba", "glockenspiel", "nothing"],
+	           configureSustainPanel);
+	
+	
     function loadSampleMapForSampler(sampler, value, offset) {
         sampler.loadSampleMap(sampleMaps[value - 1 + offset]);
     }
@@ -46,7 +63,7 @@ namespace Selectors {
     
     inline function onAttackSelectorControl(component, value) { 
         loadSampleMapForSampler(attackSampler, value, 0);
-        paintValue = value - 1;
+        attackPaintValue = value - 1;
         for (icon in attackIcons)
             icon.repaintImmediately();
     }
@@ -54,7 +71,7 @@ namespace Selectors {
 
     inline function onSustainSelectorControl(component, value) {
         loadSampleMapForSampler(sustainSampler, value, 6);
-        paintValue = value - 1;
+        sustainPaintValue = value - 1;
         for (icon in sustainIcons)
             icon.repaintImmediately();
     }
